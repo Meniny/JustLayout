@@ -29,7 +29,5 @@ DerivedData
 #
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
 # Carthage/Checkouts
-Stevia/LoginExample/Carthage/Checkouts
-Stevia/LoginExample/iOSInjectionProject/
 
 .DS_Store
