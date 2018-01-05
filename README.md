@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://i.loli.net/2018/01/05/5a4f1483924cf.png" alt="JustLayout">
+  <img src="https://i.loli.net/2018/01/05/5a4f153d36a21.png" alt="JustLayout">
   <br/><a href="https://cocoapods.org/pods/JustLayout">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-brightgreen.svg">
   <img alt="Author" src="https://img.shields.io/badge/author-Meniny-blue.svg">
