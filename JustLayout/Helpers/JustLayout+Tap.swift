@@ -62,12 +62,12 @@
 
 import UIKit
 
-public typealias ActionClosure = (() -> Void)?
+public typealias UIButtonActionClosure = (_ button: UIButton) -> Void
 
-public class ClosureWrapper {
-    var closure: ActionClosure
+public class UIButtonClosureWrapper {
+    var closure: UIButtonActionClosure?
     
-    init(_ closure: ActionClosure) {
+    init(_ closure: UIButtonActionClosure?) {
         self.closure = closure
     }
 }
@@ -76,22 +76,33 @@ private var kButtonActionClosureAssociationKey: UInt8 = 0
 
 public extension UIButton {
     
-    internal var testButtonClosure: ActionClosure {
+    internal var buttonClosure: UIButtonActionClosure? {
         get {
-            if let cw = objc_getAssociatedObject(self, &kButtonActionClosureAssociationKey) as? ClosureWrapper {
-                return cw.closure
+            if let wrapper = objc_getAssociatedObject(self, &kButtonActionClosureAssociationKey) as? UIButtonClosureWrapper {
+                return wrapper.closure
             }
             return nil
         }
         set(newValue) {
             objc_setAssociatedObject(self, &kButtonActionClosureAssociationKey,
-                                     ClosureWrapper(newValue),
+                                     UIButtonClosureWrapper(newValue),
                                      objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
     
+    @discardableResult
+    public func tap(_ event: UIControlEvents = .touchUpInside, action: UIButtonActionClosure?) -> Self {
+        #if swift(>=2.2)
+            self.addTarget(self, action: #selector(self.tapped), for: .touchUpInside)
+        #else
+            self.addTarget(self, action: "tapped", forControlEvents: .TouchUpInside)
+        #endif
+        self.buttonClosure = action
+        return self
+    }
+    
     /** */
     @objc func tapped() {
-        testButtonClosure?()
+        self.buttonClosure?(self)
     }
 }
