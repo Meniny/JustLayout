@@ -1,0 +1,1419 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Notifications.swift",
+      "line": 67,
+      "symbol": "NSObject.observe(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Notifications.swift",
+      "line": 67,
+      "symbol": "NSObject.observe(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Notifications.swift",
+      "line": 74,
+      "symbol": "NSObject.unobserve(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Notifications.swift",
+      "line": 74,
+      "symbol": "NSObject.unobserve(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Style.swift",
+      "line": 101,
+      "symbol": "Array.style(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Style.swift",
+      "line": 101,
+      "symbol": "Array.style(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Tap.swift",
+      "line": 67,
+      "symbol": "ClosureWrapper",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Tap.swift",
+      "line": 67,
+      "symbol": "ClosureWrapper",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Alignment.swift",
+      "line": 336,
+      "symbol": "align(_:views:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Alignment.swift",
+      "line": 336,
+      "symbol": "align(_:views:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 65,
+      "symbol": "JustLayoutAttribute",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 65,
+      "symbol": "JustLayoutAttribute",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 88,
+      "symbol": "UIView.widthAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 88,
+      "symbol": "UIView.widthAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 92,
+      "symbol": "UIView.heightAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 92,
+      "symbol": "UIView.heightAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 96,
+      "symbol": "UIView.topAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 96,
+      "symbol": "UIView.topAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 100,
+      "symbol": "UIView.bottomAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 100,
+      "symbol": "UIView.bottomAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 104,
+      "symbol": "UIView.leftAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 104,
+      "symbol": "UIView.leftAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 108,
+      "symbol": "UIView.rightAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 108,
+      "symbol": "UIView.rightAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 112,
+      "symbol": "UIView.leadingAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 112,
+      "symbol": "UIView.leadingAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 116,
+      "symbol": "UIView.crailingAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 116,
+      "symbol": "UIView.crailingAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 120,
+      "symbol": "UIView.centerXAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 120,
+      "symbol": "UIView.centerXAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 124,
+      "symbol": "UIView.centerYAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 124,
+      "symbol": "UIView.centerYAttribute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 132,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 132,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 147,
+      "symbol": ">=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 147,
+      "symbol": ">=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 163,
+      "symbol": "<=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 163,
+      "symbol": "<=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 179,
+      "symbol": "+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 179,
+      "symbol": "+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 184,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 184,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 189,
+      "symbol": "*(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 189,
+      "symbol": "*(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 194,
+      "symbol": "/(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 194,
+      "symbol": "/(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 199,
+      "symbol": "%(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 199,
+      "symbol": "%(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 206,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 206,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 225,
+      "symbol": ">=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 225,
+      "symbol": ">=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 237,
+      "symbol": "<=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Equation.swift",
+      "line": 237,
+      "symbol": "<=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 67,
+      "symbol": ">=(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 67,
+      "symbol": ">=(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 73,
+      "symbol": "<=(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 73,
+      "symbol": "<=(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 77,
+      "symbol": "JustLayoutFlexibleMargin",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 77,
+      "symbol": "JustLayoutFlexibleMargin",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 82,
+      "symbol": "PartialFlexibleConstraint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 82,
+      "symbol": "PartialFlexibleConstraint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 89,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 89,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 95,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 95,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 101,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 101,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 125,
+      "symbol": "JustLayoutLeftFlexibleMargin",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 125,
+      "symbol": "JustLayoutLeftFlexibleMargin",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 130,
+      "symbol": "|-(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 130,
+      "symbol": "|-(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 135,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 135,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 148,
+      "symbol": "JustLayoutRightFlexibleMargin",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 148,
+      "symbol": "JustLayoutRightFlexibleMargin",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 153,
+      "symbol": "-|(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 153,
+      "symbol": "-|(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 158,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 158,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 170,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+FlexibleMargin.swift",
+      "line": 170,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+HeightOperators.swift",
+      "line": 73,
+      "symbol": "~(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+HeightOperators.swift",
+      "line": 73,
+      "symbol": "~(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+HeightOperators.swift",
+      "line": 78,
+      "symbol": "~(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+HeightOperators.swift",
+      "line": 78,
+      "symbol": "~(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+HeightOperators.swift",
+      "line": 83,
+      "symbol": "~(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+HeightOperators.swift",
+      "line": 83,
+      "symbol": "~(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+HeightOperators.swift",
+      "line": 89,
+      "symbol": "~(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+HeightOperators.swift",
+      "line": 89,
+      "symbol": "~(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 66,
+      "symbol": "JustLayoutYAxisAnchor",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 66,
+      "symbol": "JustLayoutYAxisAnchor",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 77,
+      "symbol": "JustLayoutXAxisAnchor",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 77,
+      "symbol": "JustLayoutXAxisAnchor",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 90,
+      "symbol": "UILayoutGuide.Top",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 90,
+      "symbol": "UILayoutGuide.Top",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 94,
+      "symbol": "UILayoutGuide.Bottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 94,
+      "symbol": "UILayoutGuide.Bottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 98,
+      "symbol": "UILayoutGuide.Left",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 98,
+      "symbol": "UILayoutGuide.Left",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 102,
+      "symbol": "UILayoutGuide.Right",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 102,
+      "symbol": "UILayoutGuide.Right",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 106,
+      "symbol": "UILayoutGuide.Leading",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 106,
+      "symbol": "UILayoutGuide.Leading",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 110,
+      "symbol": "UILayoutGuide.Trailing",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 110,
+      "symbol": "UILayoutGuide.Trailing",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 114,
+      "symbol": "UILayoutGuide.CenterX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 114,
+      "symbol": "UILayoutGuide.CenterX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 118,
+      "symbol": "UILayoutGuide.CenterY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 118,
+      "symbol": "UILayoutGuide.CenterY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 125,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 125,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 143,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 143,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 171,
+      "symbol": "+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 171,
+      "symbol": "+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 177,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 177,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 183,
+      "symbol": "+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 183,
+      "symbol": "+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 189,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 189,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 198,
+      "symbol": "UILayoutSupport.Top",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 198,
+      "symbol": "UILayoutSupport.Top",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 202,
+      "symbol": "UILayoutSupport.Bottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+LayoutAnchors.swift",
+      "line": 202,
+      "symbol": "UILayoutSupport.Bottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 67,
+      "symbol": "|(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 67,
+      "symbol": "|(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 73,
+      "symbol": "|(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 73,
+      "symbol": "|(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 79,
+      "symbol": "|-(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 79,
+      "symbol": "|-(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 86,
+      "symbol": "|-(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 86,
+      "symbol": "|-(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 93,
+      "symbol": "-|(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 93,
+      "symbol": "-|(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 100,
+      "symbol": "-|(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 100,
+      "symbol": "-|(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 105,
+      "symbol": "SideConstraint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 105,
+      "symbol": "SideConstraint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 109,
+      "symbol": "PartialConstraint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 109,
+      "symbol": "PartialConstraint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 116,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 116,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 126,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 126,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 137,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 137,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 149,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 149,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 160,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 160,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 184,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 184,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 195,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 195,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 203,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 203,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 220,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 220,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 225,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 225,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 230,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 230,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 241,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 241,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 246,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 246,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 251,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 251,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 256,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 256,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 261,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 261,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 266,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 266,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 271,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 271,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 276,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 276,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 281,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 281,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 286,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 286,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 291,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 291,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 296,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 296,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 302,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 302,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 308,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 308,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 313,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 313,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 318,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 318,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 323,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Operators.swift",
+      "line": 323,
+      "symbol": "--(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Percentage.swift",
+      "line": 65,
+      "symbol": "JustLayoutPercentage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Percentage.swift",
+      "line": 65,
+      "symbol": "JustLayoutPercentage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Percentage.swift",
+      "line": 70,
+      "symbol": "%(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Percentage.swift",
+      "line": 70,
+      "symbol": "%(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/elias/Documents/GitHub/JustLayout"
+}
