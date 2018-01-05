@@ -78,7 +78,7 @@ public extension UIView {
      A padding can be used to apply equal spaces between the view and its superview
      */
     @discardableResult
-    public func fill(vertically points: CGFloat = 0) -> UIView {
+    public func fill(vertically points: CGFloat = 0) -> Self {
         return fill(.vertical, points: points)
     }
     
@@ -87,11 +87,11 @@ public extension UIView {
      A padding can be used to apply equal spaces between the view and its superview
      */
     @discardableResult
-    public func fill(horizontally points: CGFloat = 0) -> UIView {
+    public func fill(horizontally points: CGFloat = 0) -> Self {
         return fill(.horizontal, points: points)
     }
     
-    fileprivate func fill(_ axis: UILayoutConstraintAxis, points: CGFloat = 0) -> UIView {
+    fileprivate func fill(_ axis: UILayoutConstraintAxis, points: CGFloat = 0) -> Self {
         let a: NSLayoutAttribute = axis == .vertical ? .top : .left
         let b: NSLayoutAttribute = axis == .vertical ? .bottom : .right
         if let spv = superview {

@@ -70,7 +70,7 @@ precedencegroup HeightPrecedence {
 }
 
 @discardableResult
-public func ~ (left: UIView, right: CGFloat) -> UIView {
+public func ~ <T> (left: T, right: CGFloat) -> T where T: UIView {
     return left.height(right)
 }
 

@@ -90,9 +90,11 @@ public extension UIView {
         return stack(vertically: objects)
     }
     
+    @discardableResult
     fileprivate func stack(vertically objects: [Any]) -> [UIView] {
         var previousMargin: CGFloat? = nil
         var previousFlexibleMargin: JustLayoutFlexibleMargin? = nil
+        
         for (i, o) in objects.enumerated() {
             
             switch o {
@@ -229,16 +231,17 @@ public extension UIView {
     }
     
     @discardableResult
-    fileprivate func stack(vertically points: CGFloat, view v: UIView) -> UIView {
+    fileprivate func stack<T>(vertically points: CGFloat, view v: T) -> T where T: UIView {
         return stack(.vertical, points: points, v: v)
     }
     
-    fileprivate func stack(_ axis: UILayoutConstraintAxis,
-                           points: CGFloat = 0, v: UIView) -> UIView {
+    @discardableResult
+    fileprivate func stack<T>(_ axis: UILayoutConstraintAxis,
+                         points: CGFloat = 0, v: T) -> T where T: UIView {
         let a: NSLayoutAttribute = axis == .vertical ? .top : .left
         let b: NSLayoutAttribute = axis == .vertical ? .bottom : .right
         if let spv = superview {
-            let c = constraint(item: v, attribute: a, toItem: self, attribute: b, constant:points)
+            let c = constraint(item: v, attribute: a, toItem: self, attribute: b, constant: points)
             spv.addConstraint(c)
         }
         return v

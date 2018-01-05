@@ -76,7 +76,7 @@ public extension UIView {
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func left(_ points: CGFloat) -> UIView {
+    public func left(_ points: CGFloat) -> Self {
         return position(.left, points: points)
     }
     
@@ -92,7 +92,7 @@ public extension UIView {
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func right(_ points: CGFloat) -> UIView {
+    public func right(_ points: CGFloat) -> Self {
         return position(.right, points: -points)
     }
     
@@ -108,7 +108,7 @@ public extension UIView {
     - Returns: Itself for chaining purposes
     */
     @discardableResult
-    public func top(_ points: CGFloat) -> UIView {
+    public func top(_ points: CGFloat) -> Self {
         return position(.top, points: points)
     }
     
@@ -124,7 +124,7 @@ public extension UIView {
     - Returns: Itself for chaining purposes
     */
     @discardableResult
-    public func bottom(_ points: CGFloat) -> UIView {
+    public func bottom(_ points: CGFloat) -> Self {
         return position(.bottom, points: -points)
     }
     
@@ -138,7 +138,7 @@ public extension UIView {
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func aspect(ofHeight p: CGFloat) -> UIView {
+    public func aspect(ofHeight p: CGFloat) -> Self {
         return aspect(ofHeight: p%)
     }
     
@@ -152,7 +152,7 @@ public extension UIView {
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func aspect(ofWidth p: CGFloat) -> UIView {
+    public func aspect(ofWidth p: CGFloat) -> Self {
         return aspect(ofWidth: p%)
     }
     
@@ -170,7 +170,7 @@ public extension UIView {
     - Returns: Itself for chaining purposes
     */
     @discardableResult
-    public func left(_ fm: JustLayoutFlexibleMargin) -> UIView {
+    public func left(_ fm: JustLayoutFlexibleMargin) -> Self {
         return position(.left, relatedBy:fm.relation, points: fm.points)
     }
     
@@ -186,7 +186,7 @@ public extension UIView {
     - Returns: Itself for chaining purposes
     */
     @discardableResult
-    public func right(_ fm: JustLayoutFlexibleMargin) -> UIView {
+    public func right(_ fm: JustLayoutFlexibleMargin) -> Self {
         // For right this should be inverted.
         var n = JustLayoutFlexibleMargin()
         n.points = -fm.points
@@ -211,7 +211,7 @@ public extension UIView {
     - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func top(_ fm: JustLayoutFlexibleMargin) -> UIView {
+    public func top(_ fm: JustLayoutFlexibleMargin) -> Self {
         return position(.top, relatedBy:fm.relation, points: fm.points)
     }
     
@@ -227,7 +227,7 @@ public extension UIView {
     - Returns: Itself for chaining purposes
     */
     @discardableResult
-    public func bottom(_ fm: JustLayoutFlexibleMargin) -> UIView {
+    public func bottom(_ fm: JustLayoutFlexibleMargin) -> Self {
         // For bottom this should be inverted.
         var n = JustLayoutFlexibleMargin()
         n.points = -fm.points
@@ -242,7 +242,7 @@ public extension UIView {
     
     fileprivate func position(_ position: NSLayoutAttribute,
                               relatedBy: NSLayoutRelation = .equal,
-                              points: CGFloat) -> UIView {
+                              points: CGFloat) -> Self {
         if let spv = superview {
             let c = constraint(item: self, attribute: position,
                                relatedBy:relatedBy,

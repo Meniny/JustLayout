@@ -89,7 +89,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func size(_ p: JustLayoutPercentage) -> UIView {
+    public func size(_ p: JustLayoutPercentage) -> Self {
         width(p)
         height(p)
         return self
@@ -109,7 +109,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func width(_ p: JustLayoutPercentage) -> UIView {
+    public func width(_ p: JustLayoutPercentage) -> Self {
         if let spv = superview {
             widthAttribute == p.value % spv.widthAttribute
         }
@@ -136,7 +136,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func height(_ p: JustLayoutPercentage) -> UIView {
+    public func height(_ p: JustLayoutPercentage) -> Self {
         if let spv = superview {
             heightAttribute == p.value % spv.heightAttribute
         }
@@ -155,7 +155,7 @@ public extension UIView {
     - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func top(_ p: JustLayoutPercentage) -> UIView {
+    public func top(_ p: JustLayoutPercentage) -> Self {
         if let spv = superview {
             topAttribute == p.value % spv.bottomAttribute
         }
@@ -172,7 +172,7 @@ public extension UIView {
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func aspect(ofHeight p: JustLayoutPercentage, to view: UIView? = nil) -> UIView {
+    public func aspect(ofHeight p: JustLayoutPercentage, to view: UIView? = nil) -> Self {
         widthAttribute == p.value % (view ?? self).heightAttribute
         return self
     }
@@ -187,7 +187,7 @@ public extension UIView {
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func aspect(ofWidth p: JustLayoutPercentage, to view: UIView? = nil) -> UIView {
+    public func aspect(ofWidth p: JustLayoutPercentage, to view: UIView? = nil) -> Self {
         heightAttribute == p.value % (view ?? self).widthAttribute
         return self
     }
@@ -204,7 +204,7 @@ public extension UIView {
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func left(_ p: JustLayoutPercentage) -> UIView {
+    public func left(_ p: JustLayoutPercentage) -> Self {
         if let spv = superview {
             leftAttribute == p.value % spv.rightAttribute
         }
@@ -223,7 +223,7 @@ public extension UIView {
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func right(_ p: JustLayoutPercentage) -> UIView {
+    public func right(_ p: JustLayoutPercentage) -> Self {
         if let spv = superview {
             if p.value == 100 {
                 rightAttribute == spv.leftAttribute
@@ -246,7 +246,7 @@ public extension UIView {
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func bottom(_ p: JustLayoutPercentage) -> UIView {
+    public func bottom(_ p: JustLayoutPercentage) -> Self {
         if let spv = superview {
             if p.value == 100 {
                 bottomAttribute == spv.topAttribute

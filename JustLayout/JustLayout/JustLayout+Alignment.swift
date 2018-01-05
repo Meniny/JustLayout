@@ -78,7 +78,7 @@ import UIKit
  
  */
 @discardableResult
-public func align(horizontally views: UIView...) -> [UIView] {
+public func align<T>(horizontally views: T...) -> [T] where T: UIView {
     return align(horizontally: views)
 }
 
@@ -98,7 +98,7 @@ public func align(horizontally views: UIView...) -> [UIView] {
  
  */
 @discardableResult
-public func align(horizontally views: [UIView]) -> [UIView] {
+public func align<T>(horizontally views: [T]) -> [T] where T: UIView {
     align(.horizontal, views: views)
     return views
 }
@@ -113,8 +113,10 @@ public func align(horizontally views: [UIView]) -> [UIView] {
  - Returns: The array of views, enabling chaining,
  
  */
-public func align(vertically views: UIView...) {
+@discardableResult
+public func align<T>(vertically views: T...) -> [T] where T: UIView {
     align(vertically: views)
+    return views
 }
 
 /** Aligns an array of views Vertically (on the Y Axis)
@@ -127,8 +129,10 @@ public func align(vertically views: UIView...) {
  - Returns: The array of views, enabling chaining,
  
  */
-public func align(vertically views: [UIView]) {
+@discardableResult
+public func align<T>(vertically views: [T]) -> [T] where T: UIView {
     align(.vertical, views: views)
+    return views
 }
 
 /** Aligns the center of two views
@@ -138,7 +142,7 @@ public func align(vertically views: [UIView]) {
  alignCenter(button, with:image)
  ```
  */
-public func align(center v1: UIView, with v2: UIView) {
+public func align<T>(center v1: T, with v2: T) where T: UIView {
     align(horizontally: v1, with: v2)
     align(vertically: v1, with: v2)
 }
@@ -151,7 +155,7 @@ public func align(center v1: UIView, with v2: UIView) {
  ```
  
  */
-public func align(horizontally v1: UIView, with v2: UIView, offset: CGFloat = 0) {
+public func align<T>(horizontally v1: T, with v2: T, offset: CGFloat = 0) where T: UIView {
     align(.horizontal, v1: v1, with: v2, offset: offset)
 }
 
@@ -163,11 +167,11 @@ public func align(horizontally v1: UIView, with v2: UIView, offset: CGFloat = 0)
  ```
  
  */
-public func align(vertically v1: UIView, with v2: UIView, offset: CGFloat = 0) {
+public func align<T>(vertically v1: T, with v2: T, offset: CGFloat = 0) where T: UIView {
     align(.vertical, v1: v1, with: v2, offset: offset)
 }
 
-private func align(_ axis: UILayoutConstraintAxis, views: [UIView]) {
+public func align<T>(_ axis: UILayoutConstraintAxis, views: [T]) where T: UIView {
     for (i, v) in views.enumerated() where views.count > i+1 {
         let v2 = views[i+1]
         if axis == .horizontal {
@@ -178,7 +182,7 @@ private func align(_ axis: UILayoutConstraintAxis, views: [UIView]) {
     }
 }
 
-private func align(_ axis: UILayoutConstraintAxis, v1: UIView, with v2: UIView, offset: CGFloat) {
+public func align<T>(_ axis: UILayoutConstraintAxis, v1: T, with v2: T, offset: CGFloat) where T: UIView {
     if let spv = v1.superview {
         let center: NSLayoutAttribute = axis == .horizontal ? .centerY : .centerX
         let c = constraint(item: v1, attribute: center, toItem: v2, constant:offset)
@@ -204,7 +208,7 @@ private func align(_ axis: UILayoutConstraintAxis, v1: UIView, with v2: UIView, 
  
  */
 @discardableResult
-public func align(tops views: UIView...) -> [UIView] {
+public func align<T>(tops views: T...) -> [T] where T: UIView {
     return align(tops: views)
 }
 
@@ -224,7 +228,7 @@ public func align(tops views: UIView...) -> [UIView] {
  
  */
 @discardableResult
-public func align(tops views: [UIView]) -> [UIView] {
+public func align<T>(tops views: [T]) -> [T] where T: UIView {
     align(.top, views: views)
     return views
 }
@@ -245,7 +249,7 @@ public func align(tops views: [UIView]) -> [UIView] {
  
  */
 @discardableResult
-public func align(bottoms views: UIView...) -> [UIView] {
+public func align<T>(bottoms views: T...) -> [T] where T: UIView {
     return align(bottoms: views)
 }
 
@@ -265,7 +269,7 @@ public func align(bottoms views: UIView...) -> [UIView] {
  
  */
 @discardableResult
-public func align(bottoms views: [UIView]) -> [UIView] {
+public func align<T>(bottoms views: [T]) -> [T] where T: UIView {
     align(.bottom, views: views)
     return views
 }
@@ -281,7 +285,7 @@ public func align(bottoms views: [UIView]) -> [UIView] {
  
  */
 @discardableResult
-public func align(lefts views: UIView...) -> [UIView] {
+public func align<T>(lefts views: T...) -> [T] where T: UIView {
     return align(lefts: views)
 }
 
@@ -296,7 +300,7 @@ public func align(lefts views: UIView...) -> [UIView] {
  
  */
 @discardableResult
-public func align(lefts views: [UIView]) -> [UIView] {
+public func align<T>(lefts views: [T]) -> [T] where T: UIView {
     align(.left, views: views)
     return views
 }
@@ -312,7 +316,7 @@ public func align(lefts views: [UIView]) -> [UIView] {
  
  */
 @discardableResult
-public func align(rights views: UIView...) -> [UIView] {
+public func align<T>(rights views: T...) -> [T] where T: UIView {
     return align(rights: views)
 }
 
@@ -327,13 +331,13 @@ public func align(rights views: UIView...) -> [UIView] {
  
  */
 @discardableResult
-public func align(rights views: [UIView]) -> [UIView] {
+public func align<T>(rights views: [T]) -> [T] where T: UIView {
     align(.right, views: views)
     return views
 }
 
 @discardableResult
-public func align(_ attribute: NSLayoutAttribute, views: [UIView]) -> [UIView] {
+public func align<T>(_ attribute: NSLayoutAttribute, views: [T]) -> [T] where T: UIView {
     for (i, v) in views.enumerated() where views.count > i+1 {
         let v2 = views[i+1]
         if let spv = v.superview {

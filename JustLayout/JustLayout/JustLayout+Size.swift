@@ -80,7 +80,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func size(_ points: CGFloat) -> UIView {
+    public func size(_ points: CGFloat) -> Self {
         width(points)
         height(points)
         return self
@@ -106,7 +106,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func height(_ points: CGFloat) -> UIView {
+    public func height(_ points: CGFloat) -> Self {
         return size(.height, points: points)
     }
     
@@ -124,7 +124,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func width(_ points: CGFloat) -> UIView {
+    public func width(_ points: CGFloat) -> Self {
         return size(.width, points: points)
     }
     
@@ -148,7 +148,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func height(_ fm: JustLayoutFlexibleMargin) -> UIView {
+    public func height(_ fm: JustLayoutFlexibleMargin) -> Self {
         return size(.height, relatedBy: fm.relation, points: fm.points)
     }
     
@@ -166,13 +166,13 @@ public extension UIView {
      
      */
     @discardableResult
-    public func width(_ fm: JustLayoutFlexibleMargin) -> UIView {
+    public func width(_ fm: JustLayoutFlexibleMargin) -> Self {
         return size(.width, relatedBy: fm.relation, points: fm.points)
     }
     
     fileprivate func size(_ attribute: NSLayoutAttribute,
                           relatedBy: NSLayoutRelation = .equal,
-                          points: CGFloat) -> UIView {
+                          points: CGFloat) -> Self {
         let c = constraint(item: self,
                            attribute: attribute,
                            relatedBy: relatedBy,
@@ -197,7 +197,7 @@ public extension UIView {
  
  */
 @discardableResult
-public func equal(sizes views: UIView...) -> [UIView] {
+public func equal<T>(sizes views: T...) -> [T] where T: UIView {
     return equal(sizes: views)
 }
 
@@ -212,7 +212,7 @@ public func equal(sizes views: UIView...) -> [UIView] {
  
  */
 @discardableResult
-public func equal(sizes views: [UIView]) -> [UIView] {
+public func equal<T>(sizes views: [T]) -> [T] where T: UIView {
     equal(heights: views)
     equal(widths: views)
     return views
@@ -229,7 +229,7 @@ public func equal(sizes views: [UIView]) -> [UIView] {
  
  */
 @discardableResult
-public func equal(widths views: UIView...) -> [UIView] {
+public func equal<T>(widths views: T...) -> [T] where T: UIView {
     return equal(widths: views)
 }
 
@@ -244,7 +244,7 @@ public func equal(widths views: UIView...) -> [UIView] {
  
  */
 @discardableResult
-public func equal(widths views: [UIView]) -> [UIView] {
+public func equal<T>(widths views: [T]) -> [T] where T: UIView {
     equal(.width, views: views)
     return views
 }
@@ -260,7 +260,7 @@ public func equal(widths views: [UIView]) -> [UIView] {
  
  */
 @discardableResult
-public func equal(heights views: UIView...) -> [UIView] {
+public func equal<T>(heights views: T...) -> [T] where T: UIView {
     return equal(heights: views)
 }
 
@@ -276,13 +276,13 @@ public func equal(heights views: UIView...) -> [UIView] {
  
  */
 @discardableResult
-public func equal(heights views: [UIView]) -> [UIView] {
+public func equal<T>(heights views: [T]) -> [T] where T: UIView {
     equal(.height, views: views)
     return views
 }
 
-private func equal(_ attribute: NSLayoutAttribute, views: [UIView]) {
-    var previousView: UIView?
+private func equal<T>(_ attribute: NSLayoutAttribute, views: [T]) where T: UIView {
+    var previousView: T?
     for v in views {
         if let pv = previousView {
             if let spv = v.superview {

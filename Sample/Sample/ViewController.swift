@@ -22,7 +22,7 @@ class SampleController: UIViewController {
         
         view.translates(subViews: bottomView, centerView, topView)
         
-        [bottomView, centerView, topView].style { (v) in
+        style(bottomView, centerView, topView) { (v) in
             v.backgroundColor = UIColor(red:0.31, green:0.68, blue:0.33, alpha:0.70)
             v.clipsToBounds = true
         }

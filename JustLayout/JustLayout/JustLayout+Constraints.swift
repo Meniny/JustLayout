@@ -149,7 +149,7 @@ public extension UIView {
      button.followEdges(image)
      ```
      */
-    public func followEdges(_ otherView: UIView) {
+    public func followEdges<T>(_ otherView: T) where T: UIView {
         if let spv = superview {
             let cs = [
                 constraint(item: self, attribute: .top, toItem: otherView),

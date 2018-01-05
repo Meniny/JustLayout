@@ -97,11 +97,30 @@ public extension UIAppearance {
 }
 
 public extension Array where Element: UIAppearance {
+    /** Applies a styling block on an element.
+     - Returns: Itself for chaining purposes
+     */
     @discardableResult
     public func style(_ styleClosure: (Element) -> Void) -> [Element] {
         forEach { (e) in
-            e.style(styleClosure)
+            styleClosure(e)
         }
         return self
     }
+}
+
+/** Applies a styling block on an element.
+ - Returns: Itself for chaining purposes
+ */
+@discardableResult
+public func style<T>(_ views: T..., closure: (T) -> Void) -> [T] where T: UIAppearance {
+    return views.style(closure)
+}
+
+/** Applies a styling block on an element.
+ - Returns: Itself for chaining purposes
+ */
+@discardableResult
+public func style<T>(_ views: [T], closure: (T) -> Void) -> [T] where T: UIAppearance {
+    return views.style(closure)
 }
