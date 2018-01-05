@@ -1,0 +1,16 @@
+PODS:
+  - JustLayout (1.0.0)
+
+DEPENDENCIES:
+  - JustLayout (from `../`)
+
+EXTERNAL SOURCES:
+  JustLayout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JustLayout: 0f576900a7ae2e2e73f9210c4d03124505243b89
+
+PODFILE CHECKSUM: beaa154a63f5797d5839debb69dee31a09b4f005
+
+COCOAPODS: 1.3.1
