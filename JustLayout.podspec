@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JustLayout'
-  s.version          = "1.1.2"
+  s.version          = "1.1.3"
   s.summary          = "An elegant Auto Layout sugar for iOS"
   s.homepage         = "https://github.com/Meniny/JustLayout"
   s.license          = { :type => "MIT", :file => "LICENSE" }

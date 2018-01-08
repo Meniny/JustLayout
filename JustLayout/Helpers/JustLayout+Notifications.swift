@@ -62,48 +62,46 @@
 
 import UIKit
 
-public extension NSObject {
-    
-    /// Send notification
-    ///
-    /// - Parameters:
-    ///   - event: Event name
-    ///   - object: Object
-    /// - Returns: `NSNotification.Name`
-    @discardableResult
-    public func notify(_ event: String, object: Any? = nil) -> NSNotification.Name {
-        let name = NSNotification.Name(rawValue: event)
-        NotificationCenter.default.post(name: name, object: object)
-        return name
+/// Send notification
+///
+/// - Parameters:
+///   - event: Event name
+///   - object: Object
+/// - Returns: `NSNotification.Name`
+@discardableResult
+public func notify(_ event: String, object: Any? = nil) -> NSNotification.Name {
+    let name = NSNotification.Name(rawValue: event)
+    NotificationCenter.default.post(name: name, object: object)
+    return name
+}
+
+/// Add observer for event
+///
+/// - Parameters:
+///   - event: Event name
+///   - object: Object
+///   - queue: Operation queue
+///   - callback: Callback closure
+/// - Returns: `NSNotification.Name`
+@discardableResult
+public func observe(_ event: String, object: Any? = nil, queue: OperationQueue?, callback: @escaping () -> Void) -> NSNotification.Name {
+    let name = NSNotification.Name(rawValue: event)
+    _ = NotificationCenter.default.addObserver(forName: name, object: object, queue: queue) { _ in
+        callback()
     }
-    
-    /// Add observer for event
-    ///
-    /// - Parameters:
-    ///   - event: Event name
-    ///   - object: Object
-    ///   - queue: Operation queue
-    ///   - callback: Callback closure
-    /// - Returns: `NSNotification.Name`
-    @discardableResult
-    public func observe(_ event: String, object: Any? = nil, queue: OperationQueue?, callback: @escaping () -> Void) -> NSNotification.Name {
-        let name = NSNotification.Name(rawValue: event)
-        _ = NotificationCenter.default.addObserver(forName: name, object: object, queue: queue) { _ in
-            callback()
-        }
-        return name
-    }
-    
-    /// Remove observer for event
-    ///
-    /// - Parameters:
-    ///   - event: Event name
-    ///   - object: Object
-    /// - Returns: `NSNotification.Name`
-    @discardableResult
-    public func unobserve(_ event: String, object: Any? = nil) -> NSNotification.Name {
-        let name = NSNotification.Name(rawValue: event)
-        NotificationCenter.default.removeObserver(self, name: name, object: object)
-        return name
-    }
+    return name
+}
+
+/// Remove observer for event
+///
+/// - Parameters:
+///   - event: Event name
+///   - observer: The Observer
+///   - object: Object
+/// - Returns: `NSNotification.Name`
+@discardableResult
+public func unobserve(_ event: String, from observer: Any, object: Any? = nil) -> NSNotification.Name {
+    let name = NSNotification.Name(rawValue: event)
+    NotificationCenter.default.removeObserver(observer, name: name, object: object)
+    return name
 }
