@@ -1,5 +1,5 @@
 PODS:
-  - JustLayout (1.1.3)
+  - JustLayout (1.2.0)
 
 DEPENDENCIES:
   - JustLayout (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JustLayout: 33de1f90699b75d6edaf1ef030bdca045178168e
+  JustLayout: a5cfbd2392c808141b270677d21ffcc600bcc8f7
 
 PODFILE CHECKSUM: beaa154a63f5797d5839debb69dee31a09b4f005
 
