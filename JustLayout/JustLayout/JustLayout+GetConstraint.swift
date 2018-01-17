@@ -64,6 +64,36 @@ import UIKit
 
 public extension UIView {
     
+    /** Gets the centerX constraint if found.
+     
+     Example Usage for changing centerX of a label :
+     ```
+     label.centerXConstraint?.constant = 10
+     
+     // Animate if needed
+     UIView.animateWithDuration(0.3, animations:layoutIfNeeded)
+     ```
+     - Returns: The centerX NSLayoutConstraint if found.
+     */
+    public var centerXConstraint: NSLayoutConstraint? {
+        return constraintForView(self, attribute: .centerX)
+    }
+    
+    /** Gets the centerY constraint if found.
+     
+     Example Usage for changing centerY of a label :
+     ```
+     label.centerYConstraint?.constant = 10
+     
+     // Animate if needed
+     UIView.animateWithDuration(0.3, animations:layoutIfNeeded)
+     ```
+     - Returns: The centerY NSLayoutConstraint if found.
+     */
+    public var centerYConstraint: NSLayoutConstraint? {
+        return constraintForView(self, attribute: .centerY)
+    }
+    
     /** Gets the left constraint if found.
     
     Example Usage for changing left margin of a label :

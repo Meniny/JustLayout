@@ -8,29 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		03EF4312B31D14E19BBD341CD43B5ACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		0BED05BF7A1949740EEA9606075CA648 /* JustLayout+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA7A859954AA61618AD1892AE10F0C /* JustLayout+Alignment.swift */; };
-		1B09D42DA9E11339E51ED721A9E52A4D /* JustLayout+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C817AE9251C25A30747B555EAC043819 /* JustLayout+Percentage.swift */; };
-		21CF9DDACC5DADBD39F09586AFC9635E /* JustLayout+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58366E921F43F0BD8C1AAC21CE85D08E /* JustLayout+Center.swift */; };
-		24790201BBFFA4849B218C6CBC36EF2F /* JustLayout+Tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C65F628CED962CC94197E2CE8719EA9 /* JustLayout+Tap.swift */; };
-		2A930A76A5B78CDF2654F8B54A065F03 /* JustLayout+HeightOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9FD0CFA37B266EFD441245D2F19A7 /* JustLayout+HeightOperators.swift */; };
-		361B44E73A7E63364FC77000F3426D0C /* JustLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 814A7D16D8BF51D7C11830B01EE03300 /* JustLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37ADF2167A8A3E8F6BC526E83C68E598 /* JustLayout+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD49A459E62DB03D8530CCAEB1A60EB /* JustLayout+Operators.swift */; };
-		3C950976D96CBE960F5E8933965432B0 /* JustLayout+Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1F6A7E73AB85C852601A90DB604D9C /* JustLayout+Stacks.swift */; };
-		48A18B056804A82B7AFE9B1EA81A812A /* JustLayout+GetConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BFC6D209F4308448C76C24D4D4F645 /* JustLayout+GetConstraint.swift */; };
-		4F54AC4D034C7BF5A96BE8381A1B9FC7 /* JustLayout+LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D3E9EAAFE1C92D2C59D185A77EB521 /* JustLayout+LayoutAnchors.swift */; };
-		4F66898253D02BCCC872DBC02294D5FF /* JustLayout+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC6A799282C2FD0F2C95167ACC1916A /* JustLayout+Hierarchy.swift */; };
-		5D801D4B198A0A4BBCE1B57BC1EA59B1 /* JustLayout+Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA7C56A66A983AC60167D80E841D984 /* JustLayout+Fill.swift */; };
-		6606E4E8CC88498B7C8C704570105DAA /* JustLayout+FlexibleMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95D806D0F6100FE395650D3CF67B7C5 /* JustLayout+FlexibleMargin.swift */; };
+		0B8B70EDAF9C0BFCFC3CB41B5A11FD5A /* JustLayout+Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791C440D726CE174C61058982DF003EC /* JustLayout+Fill.swift */; };
+		15BAA5F1DD7C754CAB44E2BC5994CDF4 /* JustLayout+FlexibleMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1FBA3B8E75813F0CD6C3C250C7DDDB /* JustLayout+FlexibleMargin.swift */; };
+		2C4686993C25E2D2C0EFB4B7D0ED459A /* JustLayout+Tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A873F1F70819ADFA9390BE3C89B7B13 /* JustLayout+Tap.swift */; };
+		2EA1B75591E22DD50D015C10D94B3E5A /* JustLayout+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12B42493515C7E8E67D7D0E8F692259 /* JustLayout+Position.swift */; };
+		3529E56390128C545D6798B89B1180D9 /* JustLayout+GetConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0A580C37D29841939661EBC89AB7D /* JustLayout+GetConstraint.swift */; };
+		51F6942234FE3F0271FF15D0460CBA9F /* JustLayout+Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748274A745193F644170BBA016ADF858 /* JustLayout+Content.swift */; };
+		5D80EA28AE9EA9F21796B1639AA7ABED /* JustLayout+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25865EE31418B877A6B933F23F5A280E /* JustLayout+Alignment.swift */; };
+		68B2A4F890BC3126A7647E6825ECF584 /* JustLayout+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F3A2E5F7FA916BE300CBF01BA5A6C /* JustLayout+Style.swift */; };
+		69CE572448A1BE761D55ABA2790D5C66 /* JustLayout+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E36F2DF78491A3B445E9A4AAC0ED6A /* JustLayout+Size.swift */; };
+		6FF63A3CB387A64EABD8B5523D6E85D3 /* JustLayout+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9D87CA4EE803BE6CC196C95919BD3 /* JustLayout+Percentage.swift */; };
 		7E458F4DF59CA3B2D65F43883A456713 /* Pods-Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF50723EE695E440CDA214119EF2C70 /* Pods-Sample-dummy.m */; };
+		844EDE43E76223ED4B289A56BCEE219C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		88DA66071228E711E1426764487E1491 /* JustLayout+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8F2F85E07F4A9AD97F80BA86853CC /* JustLayout+Constraints.swift */; };
+		8B7BDF3778C91BE9ECDE698C153A9BE7 /* JustLayout+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D429A5651C4C51144CD704007A19E3FE /* JustLayout+Operators.swift */; };
 		8F02599D32E8C11FAA4A5E7E4C36C3E1 /* Pods-Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 630DD76D417453483F37DBAE838D5518 /* Pods-Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA4597A06BF8AA3BB8EA0AE314DE88A1 /* JustLayout+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0E6551AD1C15D2E570FA0D7A2CA8F /* JustLayout+Style.swift */; };
-		BA52A1BB1495828D1B97CAEC972A1E51 /* JustLayout+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B6C18F498EB57603F8209E7E75AA82 /* JustLayout+Size.swift */; };
-		BCB5DFBCD0A885A8C4AD3F882364FC12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CB087747CA5BF1FDD5D085A5BC3C4376 /* JustLayout+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E675E61216ADD9C0FDB8C57CD27D97 /* JustLayout+Constraints.swift */; };
-		DCD62B2FE154E257800A76BA5AAD78E5 /* JustLayout+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0AB30548902ECF50BF38FEF7811CA7 /* JustLayout+Position.swift */; };
-		DF206357C4A49DAF2EB434318905EF8E /* JustLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AD8CCE53C620396B172735098FE1C5 /* JustLayout-dummy.m */; };
-		ED1077323560568734313CC264D99AB9 /* JustLayout+Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90625B7F8F918BD07B98139D2D8AE37C /* JustLayout+Equation.swift */; };
-		F398DB520130AD9F87C8E1F50D201064 /* JustLayout+Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4240A744F4C42E79AF2A9B7408F18E6B /* JustLayout+Content.swift */; };
+		A5F5D8B1B60E70DCF32724A99D7B8973 /* JustLayout+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1394B5B0F10DB83682647B523FE61288 /* JustLayout+Hierarchy.swift */; };
+		AE197EDF4AB8960A390B958838F1CAB3 /* JustLayout+Remake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44734A1628B8F9C2FC96905F9A065BA3 /* JustLayout+Remake.swift */; };
+		C4418D1D902044F5F3CF30B9E6163A56 /* JustLayout+HeightOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7AED9AF4BA02A2DDE396454D2B4359 /* JustLayout+HeightOperators.swift */; };
+		C9E8460CCAB3468162E807E6C874E89E /* JustLayout+LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C1371886C482BD3305A5B06F3512F5 /* JustLayout+LayoutAnchors.swift */; };
+		CAA7973B2394F3A41ECFA6BCA0B0AA3E /* JustLayout+Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9DE78C35B2B0B5AC1C525727836C0 /* JustLayout+Stacks.swift */; };
+		CAE2E86CEE8DE6629B47D5D97BEA8A9A /* JustLayout+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173D7130750C077A3CD042DBCF5E45E /* JustLayout+Center.swift */; };
+		CE1626B3C89959955A6AD8D97A3A31B9 /* JustLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 661DF7FAB692C7C14BE0AA1101A36268 /* JustLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAE8C159A9A0A56B4452A20AB9E8A50F /* JustLayout+Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C95CF7C30F801B5C7CE95FBA8B8F1D9 /* JustLayout+Equation.swift */; };
+		EB7222846E62B1C8BD6BFB59256D8E9F /* JustLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2741EC9980D48D6AA8BC8D212BF84EEA /* JustLayout-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,58 +39,59 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 81A2B7463E492A2AF2A634FFB6023012;
+			remoteGlobalIDString = 56CDAA4F3B61833A69265EE37CDF4979;
 			remoteInfo = JustLayout;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11E62FD031535A147442A650E04DA7EF /* JustLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JustLayout.modulemap; sourceTree = "<group>"; };
+		0949A401509525EE1E03FA41409246A5 /* JustLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JustLayout.modulemap; sourceTree = "<group>"; };
+		1394B5B0F10DB83682647B523FE61288 /* JustLayout+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Hierarchy.swift"; sourceTree = "<group>"; };
 		161FD1626938094EEC6BF57530EDB6DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C1637C18BCDD1566D22193CAE4A3195 /* JustLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JustLayout.framework; path = JustLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DA7C56A66A983AC60167D80E841D984 /* JustLayout+Fill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Fill.swift"; sourceTree = "<group>"; };
-		2487ADCC384AEC6D0D19ADB0F20FD1E5 /* JustLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustLayout-prefix.pch"; sourceTree = "<group>"; };
-		2C65F628CED962CC94197E2CE8719EA9 /* JustLayout+Tap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Tap.swift"; sourceTree = "<group>"; };
-		2E0AB30548902ECF50BF38FEF7811CA7 /* JustLayout+Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Position.swift"; sourceTree = "<group>"; };
-		2EE0E6551AD1C15D2E570FA0D7A2CA8F /* JustLayout+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Style.swift"; sourceTree = "<group>"; };
-		2FC6A799282C2FD0F2C95167ACC1916A /* JustLayout+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Hierarchy.swift"; sourceTree = "<group>"; };
+		2391653A86B7804BA57114ADF8916C9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25865EE31418B877A6B933F23F5A280E /* JustLayout+Alignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Alignment.swift"; sourceTree = "<group>"; };
+		2741EC9980D48D6AA8BC8D212BF84EEA /* JustLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JustLayout-dummy.m"; sourceTree = "<group>"; };
+		2A1FBA3B8E75813F0CD6C3C250C7DDDB /* JustLayout+FlexibleMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+FlexibleMargin.swift"; sourceTree = "<group>"; };
 		2FDF78216A41DB691C5960FEE69EB9FD /* Pods-Sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-resources.sh"; sourceTree = "<group>"; };
 		3AE375A74D27FC41E7BB6C006DFC76A6 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
-		4240A744F4C42E79AF2A9B7408F18E6B /* JustLayout+Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Content.swift"; sourceTree = "<group>"; };
+		44734A1628B8F9C2FC96905F9A065BA3 /* JustLayout+Remake.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Remake.swift"; sourceTree = "<group>"; };
 		4AF50723EE695E440CDA214119EF2C70 /* Pods-Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sample-dummy.m"; sourceTree = "<group>"; };
-		58366E921F43F0BD8C1AAC21CE85D08E /* JustLayout+Center.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Center.swift"; sourceTree = "<group>"; };
+		55D8F2F85E07F4A9AD97F80BA86853CC /* JustLayout+Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Constraints.swift"; sourceTree = "<group>"; };
+		5A873F1F70819ADFA9390BE3C89B7B13 /* JustLayout+Tap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Tap.swift"; sourceTree = "<group>"; };
 		630DD76D417453483F37DBAE838D5518 /* Pods-Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sample-umbrella.h"; sourceTree = "<group>"; };
-		63B9FD0CFA37B266EFD441245D2F19A7 /* JustLayout+HeightOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+HeightOperators.swift"; sourceTree = "<group>"; };
-		64BFC6D209F4308448C76C24D4D4F645 /* JustLayout+GetConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+GetConstraint.swift"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69430CEE97279E57D6F8A8FB9CB3B547 /* JustLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JustLayout.xcconfig; sourceTree = "<group>"; };
+		661DF7FAB692C7C14BE0AA1101A36268 /* JustLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustLayout-umbrella.h"; sourceTree = "<group>"; };
 		6D65DC53E876D33B73CCFEE44C379EE1 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		735E5204C40E887244F2B75BCCDF2572 /* Pods-Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Sample.modulemap"; sourceTree = "<group>"; };
-		814A7D16D8BF51D7C11830B01EE03300 /* JustLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustLayout-umbrella.h"; sourceTree = "<group>"; };
+		748274A745193F644170BBA016ADF858 /* JustLayout+Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Content.swift"; sourceTree = "<group>"; };
+		791C440D726CE174C61058982DF003EC /* JustLayout+Fill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Fill.swift"; sourceTree = "<group>"; };
+		7A421F607CD45146C419B97055E5B863 /* JustLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JustLayout.xcconfig; sourceTree = "<group>"; };
+		7B7AED9AF4BA02A2DDE396454D2B4359 /* JustLayout+HeightOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+HeightOperators.swift"; sourceTree = "<group>"; };
+		7DF9D87CA4EE803BE6CC196C95919BD3 /* JustLayout+Percentage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Percentage.swift"; sourceTree = "<group>"; };
+		8173D7130750C077A3CD042DBCF5E45E /* JustLayout+Center.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Center.swift"; sourceTree = "<group>"; };
 		8EC4BD6DF52A3935BA7DD89E84C0B4B2 /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sample.framework; path = "Pods-Sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90625B7F8F918BD07B98139D2D8AE37C /* JustLayout+Equation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Equation.swift"; sourceTree = "<group>"; };
-		90B6C18F498EB57603F8209E7E75AA82 /* JustLayout+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Size.swift"; sourceTree = "<group>"; };
+		92E36F2DF78491A3B445E9A4AAC0ED6A /* JustLayout+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Size.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C896AB03AD02637A2108FF27D207683 /* Pods-Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-frameworks.sh"; sourceTree = "<group>"; };
-		9CD49A459E62DB03D8530CCAEB1A60EB /* JustLayout+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Operators.swift"; sourceTree = "<group>"; };
+		9C95CF7C30F801B5C7CE95FBA8B8F1D9 /* JustLayout+Equation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Equation.swift"; sourceTree = "<group>"; };
+		9FF9DE78C35B2B0B5AC1C525727836C0 /* JustLayout+Stacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Stacks.swift"; sourceTree = "<group>"; };
+		A07E4FE836440FEE76EFD3CFC3145113 /* JustLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustLayout-prefix.pch"; sourceTree = "<group>"; };
 		A21D9B3C2775E7C503E601A5737980FB /* Pods-Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A4F67C9E66E8D9E97F11042B162517EB /* Pods-Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sample-acknowledgements.plist"; sourceTree = "<group>"; };
-		B7D3E9EAAFE1C92D2C59D185A77EB521 /* JustLayout+LayoutAnchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+LayoutAnchors.swift"; sourceTree = "<group>"; };
-		B8E675E61216ADD9C0FDB8C57CD27D97 /* JustLayout+Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Constraints.swift"; sourceTree = "<group>"; };
-		BDDA7A859954AA61618AD1892AE10F0C /* JustLayout+Alignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Alignment.swift"; sourceTree = "<group>"; };
-		BE1F6A7E73AB85C852601A90DB604D9C /* JustLayout+Stacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Stacks.swift"; sourceTree = "<group>"; };
-		C817AE9251C25A30747B555EAC043819 /* JustLayout+Percentage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Percentage.swift"; sourceTree = "<group>"; };
-		CC27DEC2127EA4F3F0954BEF85290B89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0AD8CCE53C620396B172735098FE1C5 /* JustLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JustLayout-dummy.m"; sourceTree = "<group>"; };
-		E95D806D0F6100FE395650D3CF67B7C5 /* JustLayout+FlexibleMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+FlexibleMargin.swift"; sourceTree = "<group>"; };
+		C6E0A580C37D29841939661EBC89AB7D /* JustLayout+GetConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+GetConstraint.swift"; sourceTree = "<group>"; };
+		D429A5651C4C51144CD704007A19E3FE /* JustLayout+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Operators.swift"; sourceTree = "<group>"; };
+		DA2F3A2E5F7FA916BE300CBF01BA5A6C /* JustLayout+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Style.swift"; sourceTree = "<group>"; };
+		E12B42493515C7E8E67D7D0E8F692259 /* JustLayout+Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Position.swift"; sourceTree = "<group>"; };
+		E6C1371886C482BD3305A5B06F3512F5 /* JustLayout+LayoutAnchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+LayoutAnchors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4059EDB29AED9C0F99ADAD07BC6580E0 /* Frameworks */ = {
+		AB71AF65D8D17D03DC5BAD720D856DE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCB5DFBCD0A885A8C4AD3F882364FC12 /* Foundation.framework in Frameworks */,
+				844EDE43E76223ED4B289A56BCEE219C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +106,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29ACB03B93C522722D741CE1C5CCD94E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2391653A86B7804BA57114ADF8916C9B /* Info.plist */,
+				0949A401509525EE1E03FA41409246A5 /* JustLayout.modulemap */,
+				7A421F607CD45146C419B97055E5B863 /* JustLayout.xcconfig */,
+				2741EC9980D48D6AA8BC8D212BF84EEA /* JustLayout-dummy.m */,
+				A07E4FE836440FEE76EFD3CFC3145113 /* JustLayout-prefix.pch */,
+				661DF7FAB692C7C14BE0AA1101A36268 /* JustLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Sample/Pods/Target Support Files/JustLayout";
+			sourceTree = "<group>";
+		};
 		2B3AF15A7A45B5AD9FFFFB343074930E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,28 +129,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35BDE0055B306827E1BBCD0A0DE99246 /* JustLayout */ = {
+		44D5FD19A1BACDF4D95C0F29CB39A4D6 /* JustLayout */ = {
 			isa = PBXGroup;
 			children = (
-				BDDA7A859954AA61618AD1892AE10F0C /* JustLayout+Alignment.swift */,
-				58366E921F43F0BD8C1AAC21CE85D08E /* JustLayout+Center.swift */,
-				B8E675E61216ADD9C0FDB8C57CD27D97 /* JustLayout+Constraints.swift */,
-				4240A744F4C42E79AF2A9B7408F18E6B /* JustLayout+Content.swift */,
-				90625B7F8F918BD07B98139D2D8AE37C /* JustLayout+Equation.swift */,
-				1DA7C56A66A983AC60167D80E841D984 /* JustLayout+Fill.swift */,
-				E95D806D0F6100FE395650D3CF67B7C5 /* JustLayout+FlexibleMargin.swift */,
-				64BFC6D209F4308448C76C24D4D4F645 /* JustLayout+GetConstraint.swift */,
-				63B9FD0CFA37B266EFD441245D2F19A7 /* JustLayout+HeightOperators.swift */,
-				2FC6A799282C2FD0F2C95167ACC1916A /* JustLayout+Hierarchy.swift */,
-				B7D3E9EAAFE1C92D2C59D185A77EB521 /* JustLayout+LayoutAnchors.swift */,
-				9CD49A459E62DB03D8530CCAEB1A60EB /* JustLayout+Operators.swift */,
-				C817AE9251C25A30747B555EAC043819 /* JustLayout+Percentage.swift */,
-				2E0AB30548902ECF50BF38FEF7811CA7 /* JustLayout+Position.swift */,
-				90B6C18F498EB57603F8209E7E75AA82 /* JustLayout+Size.swift */,
-				BE1F6A7E73AB85C852601A90DB604D9C /* JustLayout+Stacks.swift */,
+				5E6B602AB1599DE2A3F30711DB07035B /* Helpers */,
+				EFA5ACB38BB2E5368DE2A87091427680 /* JustLayout */,
+				29ACB03B93C522722D741CE1C5CCD94E /* Support Files */,
 			);
 			name = JustLayout;
-			path = JustLayout/JustLayout;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E6B602AB1599DE2A3F30711DB07035B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DA2F3A2E5F7FA916BE300CBF01BA5A6C /* JustLayout+Style.swift */,
+				5A873F1F70819ADFA9390BE3C89B7B13 /* JustLayout+Tap.swift */,
+			);
+			name = Helpers;
+			path = JustLayout/Helpers;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -148,36 +161,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		86414E464F6C9B05941B5F4569A128C9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CC27DEC2127EA4F3F0954BEF85290B89 /* Info.plist */,
-				11E62FD031535A147442A650E04DA7EF /* JustLayout.modulemap */,
-				69430CEE97279E57D6F8A8FB9CB3B547 /* JustLayout.xcconfig */,
-				E0AD8CCE53C620396B172735098FE1C5 /* JustLayout-dummy.m */,
-				2487ADCC384AEC6D0D19ADB0F20FD1E5 /* JustLayout-prefix.pch */,
-				814A7D16D8BF51D7C11830B01EE03300 /* JustLayout-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Sample/Pods/Target Support Files/JustLayout";
-			sourceTree = "<group>";
-		};
 		A8614ADDDA2C845A05B4D5D16AB12C48 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				BF5639CAB18577B4EDAE07E0E34E188C /* Pods-Sample */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B9F643F5AFDD3FCA6C50745F44C5554D /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				2EE0E6551AD1C15D2E570FA0D7A2CA8F /* JustLayout+Style.swift */,
-				2C65F628CED962CC94197E2CE8719EA9 /* JustLayout+Tap.swift */,
-			);
-			name = Helpers;
-			path = JustLayout/Helpers;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -209,20 +198,9 @@
 		C738B1CFDD7B7F76E3212472FF730812 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CEC446982F372D5560C4D539E7FD0D81 /* JustLayout */,
+				44D5FD19A1BACDF4D95C0F29CB39A4D6 /* JustLayout */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CEC446982F372D5560C4D539E7FD0D81 /* JustLayout */ = {
-			isa = PBXGroup;
-			children = (
-				B9F643F5AFDD3FCA6C50745F44C5554D /* Helpers */,
-				35BDE0055B306827E1BBCD0A0DE99246 /* JustLayout */,
-				86414E464F6C9B05941B5F4569A128C9 /* Support Files */,
-			);
-			name = JustLayout;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -233,9 +211,42 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		EFA5ACB38BB2E5368DE2A87091427680 /* JustLayout */ = {
+			isa = PBXGroup;
+			children = (
+				25865EE31418B877A6B933F23F5A280E /* JustLayout+Alignment.swift */,
+				8173D7130750C077A3CD042DBCF5E45E /* JustLayout+Center.swift */,
+				55D8F2F85E07F4A9AD97F80BA86853CC /* JustLayout+Constraints.swift */,
+				748274A745193F644170BBA016ADF858 /* JustLayout+Content.swift */,
+				9C95CF7C30F801B5C7CE95FBA8B8F1D9 /* JustLayout+Equation.swift */,
+				791C440D726CE174C61058982DF003EC /* JustLayout+Fill.swift */,
+				2A1FBA3B8E75813F0CD6C3C250C7DDDB /* JustLayout+FlexibleMargin.swift */,
+				C6E0A580C37D29841939661EBC89AB7D /* JustLayout+GetConstraint.swift */,
+				7B7AED9AF4BA02A2DDE396454D2B4359 /* JustLayout+HeightOperators.swift */,
+				1394B5B0F10DB83682647B523FE61288 /* JustLayout+Hierarchy.swift */,
+				E6C1371886C482BD3305A5B06F3512F5 /* JustLayout+LayoutAnchors.swift */,
+				D429A5651C4C51144CD704007A19E3FE /* JustLayout+Operators.swift */,
+				7DF9D87CA4EE803BE6CC196C95919BD3 /* JustLayout+Percentage.swift */,
+				E12B42493515C7E8E67D7D0E8F692259 /* JustLayout+Position.swift */,
+				44734A1628B8F9C2FC96905F9A065BA3 /* JustLayout+Remake.swift */,
+				92E36F2DF78491A3B445E9A4AAC0ED6A /* JustLayout+Size.swift */,
+				9FF9DE78C35B2B0B5AC1C525727836C0 /* JustLayout+Stacks.swift */,
+			);
+			name = JustLayout;
+			path = JustLayout/JustLayout;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2416A8A98D5A6DDB4C3C044BC872C6B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1626B3C89959955A6AD8D97A3A31B9 /* JustLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C663BE6F4316BE49EEB8D5F427C5A712 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,24 +255,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB6327F884D0066218819BACFBC980B1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				361B44E73A7E63364FC77000F3426D0C /* JustLayout-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		81A2B7463E492A2AF2A634FFB6023012 /* JustLayout */ = {
+		56CDAA4F3B61833A69265EE37CDF4979 /* JustLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 410E2274BEB479FF173B311D4DD8B3D0 /* Build configuration list for PBXNativeTarget "JustLayout" */;
+			buildConfigurationList = D8908FB4DFAD1077632EC1DAE4184030 /* Build configuration list for PBXNativeTarget "JustLayout" */;
 			buildPhases = (
-				6D05571C58D257F3EF764851D0923CBB /* Sources */,
-				4059EDB29AED9C0F99ADAD07BC6580E0 /* Frameworks */,
-				CB6327F884D0066218819BACFBC980B1 /* Headers */,
+				0C0B8B4C6E47E5E5DA71D7F08364ECAF /* Sources */,
+				AB71AF65D8D17D03DC5BAD720D856DE5 /* Frameworks */,
+				2416A8A98D5A6DDB4C3C044BC872C6B3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -311,36 +314,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81A2B7463E492A2AF2A634FFB6023012 /* JustLayout */,
+				56CDAA4F3B61833A69265EE37CDF4979 /* JustLayout */,
 				E7E9DCCCE7C3E4EE7C373DE9C2948D95 /* Pods-Sample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D05571C58D257F3EF764851D0923CBB /* Sources */ = {
+		0C0B8B4C6E47E5E5DA71D7F08364ECAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BED05BF7A1949740EEA9606075CA648 /* JustLayout+Alignment.swift in Sources */,
-				21CF9DDACC5DADBD39F09586AFC9635E /* JustLayout+Center.swift in Sources */,
-				CB087747CA5BF1FDD5D085A5BC3C4376 /* JustLayout+Constraints.swift in Sources */,
-				F398DB520130AD9F87C8E1F50D201064 /* JustLayout+Content.swift in Sources */,
-				ED1077323560568734313CC264D99AB9 /* JustLayout+Equation.swift in Sources */,
-				5D801D4B198A0A4BBCE1B57BC1EA59B1 /* JustLayout+Fill.swift in Sources */,
-				6606E4E8CC88498B7C8C704570105DAA /* JustLayout+FlexibleMargin.swift in Sources */,
-				48A18B056804A82B7AFE9B1EA81A812A /* JustLayout+GetConstraint.swift in Sources */,
-				2A930A76A5B78CDF2654F8B54A065F03 /* JustLayout+HeightOperators.swift in Sources */,
-				4F66898253D02BCCC872DBC02294D5FF /* JustLayout+Hierarchy.swift in Sources */,
-				4F54AC4D034C7BF5A96BE8381A1B9FC7 /* JustLayout+LayoutAnchors.swift in Sources */,
-				37ADF2167A8A3E8F6BC526E83C68E598 /* JustLayout+Operators.swift in Sources */,
-				1B09D42DA9E11339E51ED721A9E52A4D /* JustLayout+Percentage.swift in Sources */,
-				DCD62B2FE154E257800A76BA5AAD78E5 /* JustLayout+Position.swift in Sources */,
-				BA52A1BB1495828D1B97CAEC972A1E51 /* JustLayout+Size.swift in Sources */,
-				3C950976D96CBE960F5E8933965432B0 /* JustLayout+Stacks.swift in Sources */,
-				AA4597A06BF8AA3BB8EA0AE314DE88A1 /* JustLayout+Style.swift in Sources */,
-				24790201BBFFA4849B218C6CBC36EF2F /* JustLayout+Tap.swift in Sources */,
-				DF206357C4A49DAF2EB434318905EF8E /* JustLayout-dummy.m in Sources */,
+				5D80EA28AE9EA9F21796B1639AA7ABED /* JustLayout+Alignment.swift in Sources */,
+				CAE2E86CEE8DE6629B47D5D97BEA8A9A /* JustLayout+Center.swift in Sources */,
+				88DA66071228E711E1426764487E1491 /* JustLayout+Constraints.swift in Sources */,
+				51F6942234FE3F0271FF15D0460CBA9F /* JustLayout+Content.swift in Sources */,
+				EAE8C159A9A0A56B4452A20AB9E8A50F /* JustLayout+Equation.swift in Sources */,
+				0B8B70EDAF9C0BFCFC3CB41B5A11FD5A /* JustLayout+Fill.swift in Sources */,
+				15BAA5F1DD7C754CAB44E2BC5994CDF4 /* JustLayout+FlexibleMargin.swift in Sources */,
+				3529E56390128C545D6798B89B1180D9 /* JustLayout+GetConstraint.swift in Sources */,
+				C4418D1D902044F5F3CF30B9E6163A56 /* JustLayout+HeightOperators.swift in Sources */,
+				A5F5D8B1B60E70DCF32724A99D7B8973 /* JustLayout+Hierarchy.swift in Sources */,
+				C9E8460CCAB3468162E807E6C874E89E /* JustLayout+LayoutAnchors.swift in Sources */,
+				8B7BDF3778C91BE9ECDE698C153A9BE7 /* JustLayout+Operators.swift in Sources */,
+				6FF63A3CB387A64EABD8B5523D6E85D3 /* JustLayout+Percentage.swift in Sources */,
+				2EA1B75591E22DD50D015C10D94B3E5A /* JustLayout+Position.swift in Sources */,
+				AE197EDF4AB8960A390B958838F1CAB3 /* JustLayout+Remake.swift in Sources */,
+				69CE572448A1BE761D55ABA2790D5C66 /* JustLayout+Size.swift in Sources */,
+				CAA7973B2394F3A41ECFA6BCA0B0AA3E /* JustLayout+Stacks.swift in Sources */,
+				68B2A4F890BC3126A7647E6825ECF584 /* JustLayout+Style.swift in Sources */,
+				2C4686993C25E2D2C0EFB4B7D0ED459A /* JustLayout+Tap.swift in Sources */,
+				EB7222846E62B1C8BD6BFB59256D8E9F /* JustLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,12 +362,43 @@
 		97B69E5AB4A501EF477E0FFA3D1DBAE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JustLayout;
-			target = 81A2B7463E492A2AF2A634FFB6023012 /* JustLayout */;
+			target = 56CDAA4F3B61833A69265EE37CDF4979 /* JustLayout */;
 			targetProxy = E61DE8E47BD614524C69B45B91B2869E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2DA4CF62B0B9C1C2952B2606292B42C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A421F607CD45146C419B97055E5B863 /* JustLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JustLayout/JustLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JustLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JustLayout/JustLayout.modulemap";
+				PRODUCT_NAME = JustLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6F9224530522DD3C735EC96CF142642E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -513,6 +548,38 @@
 			};
 			name = Debug;
 		};
+		D70746E8F31B6E1F90831F1FE07FC9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A421F607CD45146C419B97055E5B863 /* JustLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JustLayout/JustLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JustLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JustLayout/JustLayout.modulemap";
+				PRODUCT_NAME = JustLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E3F6B72901255A17C948CACC6DFB2862 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AE375A74D27FC41E7BB6C006DFC76A6 /* Pods-Sample.debug.xcconfig */;
@@ -547,69 +614,6 @@
 			};
 			name = Debug;
 		};
-		F6EDCD588CE39ED419A78BAF458E2B4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69430CEE97279E57D6F8A8FB9CB3B547 /* JustLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JustLayout/JustLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JustLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JustLayout/JustLayout.modulemap";
-				PRODUCT_NAME = JustLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FC778B4417C3C6A3B8DD3B3FA9DF1788 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69430CEE97279E57D6F8A8FB9CB3B547 /* JustLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JustLayout/JustLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JustLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JustLayout/JustLayout.modulemap";
-				PRODUCT_NAME = JustLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -622,20 +626,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		410E2274BEB479FF173B311D4DD8B3D0 /* Build configuration list for PBXNativeTarget "JustLayout" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F6EDCD588CE39ED419A78BAF458E2B4B /* Debug */,
-				FC778B4417C3C6A3B8DD3B3FA9DF1788 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		75D675F7A48733479DD71B58D521C152 /* Build configuration list for PBXNativeTarget "Pods-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3F6B72901255A17C948CACC6DFB2862 /* Debug */,
 				A0724DD62381E5C7918441F78D3FE126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8908FB4DFAD1077632EC1DAE4184030 /* Build configuration list for PBXNativeTarget "JustLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA4CF62B0B9C1C2952B2606292B42C0 /* Debug */,
+				D70746E8F31B6E1F90831F1FE07FC9DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

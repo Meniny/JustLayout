@@ -29,20 +29,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Style.swift",
-      "line": 101,
-      "symbol": "Array.style(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Style.swift",
-      "line": 101,
-      "symbol": "Array.style(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Tap.swift",
       "line": 67,
       "symbol": "ClosureWrapper",
@@ -58,14 +44,42 @@
     },
     {
       "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Alignment.swift",
-      "line": 336,
+      "line": 174,
       "symbol": "align(_:views:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
       "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Alignment.swift",
-      "line": 336,
+      "line": 174,
+      "symbol": "align(_:views:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Alignment.swift",
+      "line": 185,
+      "symbol": "align(_:v1:with:offset:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Alignment.swift",
+      "line": 185,
+      "symbol": "align(_:v1:with:offset:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Alignment.swift",
+      "line": 340,
+      "symbol": "align(_:views:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Alignment.swift",
+      "line": 340,
       "symbol": "align(_:views:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
