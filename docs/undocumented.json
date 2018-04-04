@@ -2,6 +2,20 @@
   "warnings": [
     {
       "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Tap.swift",
+      "line": 65,
+      "symbol": "UIButtonActionClosure",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Tap.swift",
+      "line": 65,
+      "symbol": "UIButtonActionClosure",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Tap.swift",
       "line": 67,
       "symbol": "UIButtonClosureWrapper",
       "symbol_kind": "source.lang.swift.decl.class",
@@ -1412,6 +1426,20 @@
       "line": 70,
       "symbol": "%(_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Stacks.swift",
+      "line": 94,
+      "symbol": "UIView.stack(vertically:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/JustLayout/JustLayout+Stacks.swift",
+      "line": 94,
+      "symbol": "UIView.stack(vertically:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }
   ],

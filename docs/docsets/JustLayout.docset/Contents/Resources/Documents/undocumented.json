@@ -1,45 +1,31 @@
 {
   "warnings": [
     {
-      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Notifications.swift",
-      "line": 67,
-      "symbol": "NSObject.observe(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Notifications.swift",
-      "line": 67,
-      "symbol": "NSObject.observe(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Notifications.swift",
-      "line": 74,
-      "symbol": "NSObject.unobserve(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Notifications.swift",
-      "line": 74,
-      "symbol": "NSObject.unobserve(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Tap.swift",
       "line": 67,
-      "symbol": "ClosureWrapper",
+      "symbol": "UIButtonClosureWrapper",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Tap.swift",
       "line": 67,
-      "symbol": "ClosureWrapper",
+      "symbol": "UIButtonClosureWrapper",
       "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Tap.swift",
+      "line": 94,
+      "symbol": "UIButton.tap(_:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elias/Documents/GitHub/JustLayout/JustLayout/Helpers/JustLayout+Tap.swift",
+      "line": 94,
+      "symbol": "UIButton.tap(_:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
