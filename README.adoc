@@ -84,7 +84,7 @@ Copy all files in the `{name}` directory into your project.
 
 == 🛌 Dependency
 
-* link:https://meniny.cn[DependencyName]
+{na}
 
 == ❤️ Contribution
 
@@ -129,7 +129,7 @@ func chainable() {
 }
 ----
 
-image::./Assets/AppIcon_480.png[AppIcon_480.png]
+image::./Assets/AppIcon_480.png[AppIcon_480.png, 200]
 
 #### Operator-Based
 
@@ -152,10 +152,9 @@ func operatorBased() {
 }
 ```
 
-****
-The `Operator-Based` layout is now chainable after v1.4.0.
-
-For example:
+[quote]
+____
+The `Operator-Based` layout is now chainable after v1.4.0. For example:
 
 [source, swift]
 ----
@@ -169,7 +168,7 @@ someView.topAttribute == topView.bottomAttribute
 someView.widthAttribute == centerView.widthAttribute
 someView.heightAttribute == centerView.heightAttribute
 ----
-****
+____
 
 ---
 
