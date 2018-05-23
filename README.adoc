@@ -152,8 +152,7 @@ func operatorBased() {
 }
 ```
 
-[NOTE]
-====
+****
 The `Operator-Based` layout is now chainable after v1.4.0.
 
 For example:
@@ -170,7 +169,7 @@ someView.topAttribute == topView.bottomAttribute
 someView.widthAttribute == centerView.widthAttribute
 someView.heightAttribute == centerView.heightAttribute
 ----
-====
+****
 
 ---
 
