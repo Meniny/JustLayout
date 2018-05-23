@@ -127,12 +127,10 @@ func chainable() {
     centerView.centerInContainer().width(100).aspectratio(followHeight: 100%)
     topView.left(centerView, -20).top(centerView, -20).size(centerView)
     bottomView.left(centerView, 20).top(centerView, 20).size(centerView)
-
-    // someView.following(leftView).below(topView).size(centerView)
 }
 ----
 
-::image:./Assets/AppIcon_480.png[AppIcon_480.png]
+image::./Assets/AppIcon_480.png[AppIcon_480.png]
 
 #### Operator-Based
 
@@ -154,3 +152,23 @@ func operatorBased() {
     topView.heightAttribute == centerView.heightAttribute
 }
 ```
+
+[NOTE]
+====
+The `Operator-Based` layout is now chainable after v1.4.0.
+
+For example:
+
+[source, swift]
+----
+someView.following(leftView).below(topView).size(centerView)
+----
+
+[source, swift]
+----
+someView.leftAttribute == leftView.rightAttribute
+someView.topAttribute == topView.bottomAttribute
+someView.widthAttribute == centerView.widthAttribute
+someView.heightAttribute == centerView.heightAttribute
+----
+====
