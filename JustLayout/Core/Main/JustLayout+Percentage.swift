@@ -162,17 +162,17 @@ public extension UIView {
         return self
     }
     
-    /** Sets the aspect for a view.
+    /** Sets the aspect ratio for a view.
      
      Example Usage :
      
-     label.aspect(ofHeight: 20)
-     label.aspect(ofHeight: 100%)
+     label.aspectratio(followHeight: 20)
+     label.aspectratio(followHeight: 100%)
      
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func aspect(ofHeight p: JustLayoutPercentage, to view: UIView? = nil) -> Self {
+    public func aspectratio(followHeight p: JustLayoutPercentage, of view: UIView? = nil) -> Self {
         widthAttribute == p.value % (view ?? self).heightAttribute
         return self
     }
@@ -181,13 +181,13 @@ public extension UIView {
      
      Example Usage :
      
-     label.aspect(ofWidth: 20)
-     label.aspect(ofWidth: 100%)
+     label.aspectratio(followWidth: 20)
+     label.aspectratio(followWidth: 100%)
      
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func aspect(ofWidth p: JustLayoutPercentage, to view: UIView? = nil) -> Self {
+    public func aspectratio(followWidth p: JustLayoutPercentage, of view: UIView? = nil) -> Self {
         heightAttribute == p.value % (view ?? self).widthAttribute
         return self
     }

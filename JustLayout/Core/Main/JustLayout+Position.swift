@@ -128,32 +128,32 @@ public extension UIView {
         return position(.bottom, points: -points)
     }
     
-    /** Sets the aspect for a view.
+    /** Sets the aspect ratio for a view.
      
      Example Usage :
      
-     label.aspect(ofHeight: 20)
-     label.aspect(ofHeight: 100%)
+     label.aspectratio(followHeight: 20)
+     label.aspectratio(followHeight: 100%)
      
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func aspect(ofHeight p: CGFloat) -> Self {
-        return aspect(ofHeight: p%)
+    public func aspectratio(followHeight p: CGFloat) -> Self {
+        return aspectratio(followHeight: p%)
     }
     
-    /** Sets the aspect for a view.
+    /** Sets the aspect ratio for a view.
      
      Example Usage :
      
-     label.aspect(ofWidth: 20)
-     label.aspect(ofWidth: 100%)
+     label.aspectratio(followWidth: 20)
+     label.aspectratio(followWidth: 100%)
      
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func aspect(ofWidth p: CGFloat) -> Self {
-        return aspect(ofWidth: p%)
+    public func aspectratio(followWidth p: CGFloat) -> Self {
+        return aspectratio(followWidth: p%)
     }
     
     // MARK: - Flexible

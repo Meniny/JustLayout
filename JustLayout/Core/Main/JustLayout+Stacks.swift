@@ -159,7 +159,7 @@ public extension UIView {
                 }
             case _ as String:() //Do nothin' !
             case let a as [UIView]:
-                align(horizontally: a)
+                JustLayout.align(horizontally: a)
             let v = a.first!
             if let pm = previousMargin {
                 if i == 1 {
@@ -245,5 +245,33 @@ public extension UIView {
             spv.addConstraint(c)
         }
         return v
+    }
+}
+
+public extension JustLayout {
+    /**
+     
+     Lays out the views on both axis.
+     
+     Note that this is not needed for Horizontal only layouts.
+     
+     `layout:visually:` is primarily for laying out views vertically but horizontal statements
+     are supported, making it perfect for describing a layout in one single statement.
+     
+     ```
+     JustLayout.layout(self.view, visually:
+         100,
+         |-emailView-| ~ 80,
+         8,
+         |-passwordView-forgotView-| ~ 80,
+         >=20,
+         |loginButton| ~ 80,
+         0
+         )
+     ```
+     */
+    @discardableResult
+    public static func layout(_ view: UIView, visually objects: Any...) -> [UIView] {
+        return view.stack(vertically: objects)
     }
 }

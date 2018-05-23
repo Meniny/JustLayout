@@ -1,7 +1,7 @@
 {
   "name": "JustLayout",
   "module_name": "JustLayout",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "summary": "An elegant Auto Layout sugar for iOS",
   "description": "JustLayout is an elegant Auto Layout sugar for iOS.",
   "homepage": "https://github.com/Meniny/JustLayout",
@@ -9,17 +9,28 @@
     "type": "MIT",
     "file": "LICENSE.md"
   },
-  "authors": "Elias Abel",
+  "authors": {
+    "Elias Abel": "admin@meniny.cn"
+  },
   "social_media_url": "https://meniny.cn/",
   "source": {
     "git": "https://github.com/Meniny/JustLayout.git",
-    "tag": "1.3.0"
+    "tag": "1.4.0"
   },
-  "source_files": "JustLayout/**/*.swift",
   "requires_arc": true,
   "swift_version": "4.1",
   "platforms": {
     "ios": "8",
     "tvos": "10.2"
-  }
+  },
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": [
+        "JustLayout/Core/**/*.swift",
+        "JustLayout/JustLayout.h"
+      ]
+    }
+  ]
 }

@@ -186,109 +186,111 @@ public extension UIView {
     }
 }
 
-/**
- Enforces an array of views to keep the same size.
- 
- ```
- equal(sizes: image1, image2, image3)
- ```
- 
- - Returns: The views enabling chaining.
- 
- */
-@discardableResult
-public func equal<T>(sizes views: T...) -> [T] where T: UIView {
-    return equal(sizes: views)
-}
-
-/**
- Enforces an array of views to keep the same size.
- 
- ```
- equal(sizes: image1, image2, image3)
- ```
- 
- - Returns: The views enabling chaining.
- 
- */
-@discardableResult
-public func equal<T>(sizes views: [T]) -> [T] where T: UIView {
-    equal(heights: views)
-    equal(widths: views)
-    return views
-}
-
-/**
- Enforces an array of views to keep the same widths.
- 
- ```
- equal(widths: image1, image2, image3)
- ```
- 
- - Returns: The views enabling chaining.
- 
- */
-@discardableResult
-public func equal<T>(widths views: T...) -> [T] where T: UIView {
-    return equal(widths: views)
-}
-
-/**
- Enforces an array of views to keep the same widths.
- 
- ```
- equal(widths: image1, image2, image3)
- ```
- 
- - Returns: The views enabling chaining.
- 
- */
-@discardableResult
-public func equal<T>(widths views: [T]) -> [T] where T: UIView {
-    equal(.width, views: views)
-    return views
-}
-
-/**
- Enforces an array of views to keep the same heights.
- 
- ```
- equal(heights: image1, image2, image3)
- ```
- 
- - Returns: The views enabling chaining.
- 
- */
-@discardableResult
-public func equal<T>(heights views: T...) -> [T] where T: UIView {
-    return equal(heights: views)
-}
-
-
-/**
- Enforces an array of views to keep the same heights.
- 
- ```
- equal(heights: image1, image2, image3)
- ```
- 
- - Returns: The views enabling chaining.
- 
- */
-@discardableResult
-public func equal<T>(heights views: [T]) -> [T] where T: UIView {
-    equal(.height, views: views)
-    return views
-}
-
-private func equal<T>(_ attribute: NSLayoutAttribute, views: [T]) where T: UIView {
-    var previousView: T?
-    for v in views {
-        if let pv = previousView {
-            if let spv = v.superview {
-                spv.addConstraint(item: v, attribute: attribute, toItem: pv)
+public extension JustLayout {
+    /**
+     Enforces an array of views to keep the same size.
+     
+     ```
+     equal(sizes: image1, image2, image3)
+     ```
+     
+     - Returns: The views enabling chaining.
+     
+     */
+    @discardableResult
+    public static func equal<T>(sizes views: T...) -> [T] where T: UIView {
+        return equal(sizes: views)
+    }
+    
+    /**
+     Enforces an array of views to keep the same size.
+     
+     ```
+     equal(sizes: image1, image2, image3)
+     ```
+     
+     - Returns: The views enabling chaining.
+     
+     */
+    @discardableResult
+    public static func equal<T>(sizes views: [T]) -> [T] where T: UIView {
+        equal(heights: views)
+        equal(widths: views)
+        return views
+    }
+    
+    /**
+     Enforces an array of views to keep the same widths.
+     
+     ```
+     equal(widths: image1, image2, image3)
+     ```
+     
+     - Returns: The views enabling chaining.
+     
+     */
+    @discardableResult
+    public static func equal<T>(widths views: T...) -> [T] where T: UIView {
+        return equal(widths: views)
+    }
+    
+    /**
+     Enforces an array of views to keep the same widths.
+     
+     ```
+     equal(widths: image1, image2, image3)
+     ```
+     
+     - Returns: The views enabling chaining.
+     
+     */
+    @discardableResult
+    public static func equal<T>(widths views: [T]) -> [T] where T: UIView {
+        equal(.width, views: views)
+        return views
+    }
+    
+    /**
+     Enforces an array of views to keep the same heights.
+     
+     ```
+     equal(heights: image1, image2, image3)
+     ```
+     
+     - Returns: The views enabling chaining.
+     
+     */
+    @discardableResult
+    public static func equal<T>(heights views: T...) -> [T] where T: UIView {
+        return equal(heights: views)
+    }
+    
+    
+    /**
+     Enforces an array of views to keep the same heights.
+     
+     ```
+     equal(heights: image1, image2, image3)
+     ```
+     
+     - Returns: The views enabling chaining.
+     
+     */
+    @discardableResult
+    public static func equal<T>(heights views: [T]) -> [T] where T: UIView {
+        equal(.height, views: views)
+        return views
+    }
+    
+    internal static func equal<T>(_ attribute: NSLayoutAttribute, views: [T]) where T: UIView {
+        var previousView: T?
+        for v in views {
+            if let pv = previousView {
+                if let spv = v.superview {
+                    spv.addConstraint(item: v, attribute: attribute, toItem: pv)
+                }
             }
+            previousView = v
         }
-        previousView = v
     }
 }

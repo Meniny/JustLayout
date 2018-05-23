@@ -22,7 +22,7 @@ class SampleController: UIViewController {
         
         view.translates(subViews: bottomView, centerView, topView)
         
-        style(bottomView, centerView, topView) { (v) in
+        JustLayout.style(bottomView, centerView, topView) { (v) in
             v.backgroundColor = UIColor(red:0.31, green:0.68, blue:0.33, alpha:0.70)
             v.clipsToBounds = true
         }
@@ -45,9 +45,9 @@ class SampleController: UIViewController {
     }
     
     func chainable() {
-        bottomView.left(100).top(100).width(100).aspect(ofWidth: 100)
-        centerView.left(120).top(120).width(100).aspect(ofWidth: 100)
-        topView.left(140).top(140).width(100).aspect(ofWidth: 100)
+        centerView.centerInContainer().width(100).aspectratio(followHeight: 100%)
+        topView.left(centerView, -20).top(centerView, -20).size(centerView)
+        bottomView.left(centerView, 20).top(centerView, 20).size(centerView)
     }
     
     func operatorBased() {
