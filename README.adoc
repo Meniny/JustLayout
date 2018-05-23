@@ -128,9 +128,11 @@ func chainable() {
     topView.left(centerView, -20).top(centerView, -20).size(centerView)
     bottomView.left(centerView, 20).top(centerView, 20).size(centerView)
 
-    someView.following(leftView).below(topView).size(centerView)
+    // someView.following(leftView).below(topView).size(centerView)
 }
 ----
+
+::image:./Assets/AppIcon_480.png[AppIcon_480.png]
 
 #### Operator-Based
 
