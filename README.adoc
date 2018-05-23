@@ -16,11 +16,9 @@
 :license: MIT
 :sep: %20%7C%20
 :platform: iOS{sep}tvOS
-// :toc: left
 :toclevels: 6
 :toc-title: TOC
 :source-highlighter: highlightjs
-// :source-highlighter: pygments
 :icons: font
 = Meet `{name}`
 {author} <{mail}>
@@ -173,3 +171,7 @@ someView.widthAttribute == centerView.widthAttribute
 someView.heightAttribute == centerView.heightAttribute
 ----
 ====
+
+---
+
+Made with icon:heart[2x] by {author}.
