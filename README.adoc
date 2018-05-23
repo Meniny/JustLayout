@@ -21,6 +21,7 @@
 :toc-title: TOC
 :source-highlighter: highlightjs
 // :source-highlighter: pygments
+:icons: font
 = Meet `{name}`
 {author} <{mail}>
 v{version}, 2018-05-23
