@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JustLayout'
   s.module_name      = 'JustLayout'
-  s.version          = "1.4.0"
+  s.version          = "1.4.1"
   s.summary          = "An elegant Auto Layout sugar for iOS"
   s.description      = "JustLayout is an elegant Auto Layout sugar for iOS."
 

@@ -4,7 +4,7 @@
 :mail: admin@meniny.cn
 :desc: an elegant Auto Layout sugar for iOS and tvOS
 :icon: {name}.png
-:version: 1.4.0
+:version: 1.4.1
 :na: N/A
 :ios: 8.0
 :macos: {na}

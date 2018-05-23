@@ -102,9 +102,7 @@ public extension Array where Element: UIAppearance {
      */
     @discardableResult
     public func style(_ styleClosure: (Element) -> Void) -> [Element] {
-        forEach { (e) in
-            styleClosure(e)
-        }
+        forEach(styleClosure)
         return self
     }
 }

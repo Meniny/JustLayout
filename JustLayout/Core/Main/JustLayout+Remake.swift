@@ -65,14 +65,6 @@ import Foundation
 import UIKit
 
 public extension UIView {
-    /// Reset all constraints
-    ///
-    /// - Parameter after: Set new constraints in this closure
-    public func resetAllConstraints(_ after: ((_ view: UIView) -> Swift.Void)?) {
-        self.removeAllConstraints()
-        after?(self)
-    }
-    
     /// Remove all constraints
     public func removeAllConstraints() {
         var sv = self.superview
@@ -94,3 +86,40 @@ public extension UIView {
         self.removeConstraints(self.constraints)
     }
 }
+
+public protocol Makable {}
+
+public extension Makable where Self: UIView {
+    
+    @discardableResult
+    public func make(closure: (Self) -> Void) -> Self {
+        closure(self)
+        return self
+    }
+    
+    @discardableResult
+    public func unmake(closure: (Self) -> Void) -> Self {
+        removeAllConstraints()
+        closure(self)
+        return self
+    }
+    
+    @discardableResult
+    public func remake(closure: @escaping (Self) -> Void) -> Self {
+        return unmake { (view) in
+            closure(self)
+        }
+    }
+    
+    /// Reset all constraints
+    ///
+    /// - Parameter after: Set new constraints in this closure
+    @discardableResult
+    public func resetAllConstraints(_ after: ((Self) -> Void)) -> Self {
+        removeAllConstraints()
+        after(self)
+        return self
+    }
+}
+
+extension UIView: Makable {}

@@ -4089,6 +4089,146 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": null,
+      "symbol": "Makable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": null,
+      "symbol": "Makable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": null,
+      "symbol": "Makable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": null,
+      "symbol": "Makable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 90,
+      "symbol": "Makable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 90,
+      "symbol": "Makable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 90,
+      "symbol": "Makable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 90,
+      "symbol": "Makable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 95,
+      "symbol": "Makable.make(closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 95,
+      "symbol": "Makable.make(closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 95,
+      "symbol": "Makable.make(closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 95,
+      "symbol": "Makable.make(closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 101,
+      "symbol": "Makable.unmake(closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 101,
+      "symbol": "Makable.unmake(closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 101,
+      "symbol": "Makable.unmake(closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 101,
+      "symbol": "Makable.unmake(closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 108,
+      "symbol": "Makable.remake(closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 108,
+      "symbol": "Makable.remake(closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 108,
+      "symbol": "Makable.remake(closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Remake.swift",
+      "line": 108,
+      "symbol": "Makable.remake(closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/Meniny/Documents/GitHub/JustLayout/JustLayout/Core/Main/JustLayout+Stacks.swift",
       "line": 94,
       "symbol": "UIView.stack(vertically:)",
