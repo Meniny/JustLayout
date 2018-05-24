@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JustLayout'
   s.module_name      = 'JustLayout'
-  s.version          = "1.4.1"
+  s.version          = "1.5.0"
   s.summary          = "An elegant Auto Layout sugar for iOS"
   s.description      = "JustLayout is an elegant Auto Layout sugar for iOS."
 
@@ -21,5 +21,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |ss|
     ss.source_files  = 'JustLayout/Core/**/*.swift', 'JustLayout/JustLayout.h'
+  end
+  
+  s.subspec 'DSL' do |ss|
+      ss.dependency      'JustLayout/Core'
+      ss.source_files  = 'JustLayout/DSL/**/*.swift'
   end
 end

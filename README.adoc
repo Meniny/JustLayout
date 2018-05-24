@@ -4,7 +4,7 @@
 :mail: admin@meniny.cn
 :desc: an elegant Auto Layout sugar for iOS and tvOS
 :icon: {name}.png
-:version: 1.4.1
+:version: 1.5.0
 :na: N/A
 :ios: 8.0
 :macos: {na}
@@ -76,6 +76,9 @@ v{version}, 2018-05-23
 ----
 use_frameworks!
 pod '{name}'
+
+# for DSL usage:
+#pod '{name}/DSL
 ----
 
 === Manually
@@ -131,7 +134,7 @@ func chainable() {
 
 image::./Assets/AppIcon_480.png[AppIcon_480.png, 200]
 
-#### Operator-Based
+=== Operator-Based
 
 ```swift
 func operatorBased() {
@@ -154,7 +157,7 @@ func operatorBased() {
 
 [quote]
 ____
-The `Operator-Based` layout is now chainable after v1.4.0. For example:
+The `Operator-Based` layout is now chainable after version `1.4.0`. For example:
 
 [source, swift]
 ----
@@ -169,6 +172,22 @@ someView.widthAttribute == centerView.widthAttribute
 someView.heightAttribute == centerView.heightAttribute
 ----
 ____
+
+=== DSL
+
+After version `1.5.0` you can now use the `JustLayoutDSL`:
+
+[source, swift]
+----
+centerView.just.centerInContainer().width(100).aspectratio(100%)
+topView.just.left(centerView, -20).top(centerView, -20).size(centerView)
+bottomView.just.left(centerView, 20).top(centerView, 20).size(centerView)
+----
+
+[IMPORTANT]
+====
+Please add `pod 'JustLayout/DSL' to your `Podfile` first.
+====
 
 ---
 

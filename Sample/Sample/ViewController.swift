@@ -28,7 +28,8 @@ class SampleController: UIViewController {
         }
         
 //        visual()
-        chainable()
+//        chainable()
+        chainableDSL()
 //        operatorBased()
     }
     
@@ -48,6 +49,12 @@ class SampleController: UIViewController {
         centerView.centerInContainer().width(100).aspectratio(followHeight: 100%)
         topView.left(centerView, -20).top(centerView, -20).size(centerView)
         bottomView.left(centerView, 20).top(centerView, 20).size(centerView)
+    }
+    
+    func chainableDSL() {
+        centerView.just.centerInContainer().width(100).aspectratio(followHeight: 100%)
+        topView.just.left(centerView, -20).top(centerView, -20).size(centerView)
+        bottomView.just.left(centerView, 20).top(centerView, 20).size(centerView)
     }
     
     func operatorBased() {

@@ -1,18 +1,18 @@
 PODS:
-  - JustLayout (1.4.1):
-    - JustLayout/Core (= 1.4.1)
-  - JustLayout/Core (1.4.1)
+  - JustLayout/Core (1.5.0)
+  - JustLayout/DSL (1.5.0):
+    - JustLayout/Core
 
 DEPENDENCIES:
-  - JustLayout (from `../`)
+  - JustLayout/DSL (from `../`)
 
 EXTERNAL SOURCES:
   JustLayout:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JustLayout: 6e5be9fca9d4c5b6cbb482eee6c100e41373c60c
+  JustLayout: d326c032c53767d94f1577602bfc70f0ec667b0f
 
-PODFILE CHECKSUM: beaa154a63f5797d5839debb69dee31a09b4f005
+PODFILE CHECKSUM: af77d399a413abf749f97add2573bf924959ad2d
 
 COCOAPODS: 1.5.2
