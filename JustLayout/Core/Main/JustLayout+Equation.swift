@@ -64,18 +64,18 @@ import UIKit
 
 public struct JustLayoutAttribute {
     public let view: UIView
-    public let attribute: NSLayoutAttribute
+    public let attribute: NSLayoutConstraint.Attribute
     public let constant: CGFloat?
     public let multiplier: CGFloat?
     
-    public init(view: UIView, attribute: NSLayoutAttribute) {
+    public init(view: UIView, attribute: NSLayoutConstraint.Attribute) {
         self.view = view
         self.attribute = attribute
         self.constant = nil
         self.multiplier = nil
     }
     
-    public init(view: UIView, attribute: NSLayoutAttribute, constant: CGFloat?, multiplier: CGFloat?) {
+    public init(view: UIView, attribute: NSLayoutConstraint.Attribute, constant: CGFloat?, multiplier: CGFloat?) {
         self.view = view
         self.attribute = attribute
         self.constant = constant

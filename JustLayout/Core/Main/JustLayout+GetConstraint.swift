@@ -223,7 +223,7 @@ public extension UIView {
     
 }
 
-func constraintForView(_ v: UIView, attribute: NSLayoutAttribute) -> NSLayoutConstraint? {
+func constraintForView(_ v: UIView, attribute: NSLayoutConstraint.Attribute) -> NSLayoutConstraint? {
     let target = v.superview ?? v
     for c in target.constraints {
         if let fi = c.firstItem as? NSObject, fi == v && c.firstAttribute == attribute {

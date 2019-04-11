@@ -172,7 +172,7 @@ public extension JustLayout {
         align(.vertical, v1: v1, with: v2, offset: offset)
     }
     
-    public static func align<T>(_ axis: UILayoutConstraintAxis, views: [T]) where T: UIView {
+    public static func align<T>(_ axis: NSLayoutConstraint.Axis, views: [T]) where T: UIView {
         for (i, v) in views.enumerated() where views.count > i+1 {
             let v2 = views[i+1]
             if axis == .horizontal {
@@ -183,9 +183,9 @@ public extension JustLayout {
         }
     }
     
-    public static func align<T>(_ axis: UILayoutConstraintAxis, v1: T, with v2: T, offset: CGFloat) where T: UIView {
+    public static func align<T>(_ axis: NSLayoutConstraint.Axis, v1: T, with v2: T, offset: CGFloat) where T: UIView {
         if let spv = v1.superview {
-            let center: NSLayoutAttribute = axis == .horizontal ? .centerY : .centerX
+            let center: NSLayoutConstraint.Attribute = axis == .horizontal ? .centerY : .centerX
             let c = constraint(item: v1, attribute: center, toItem: v2, constant:offset)
             spv.addConstraint(c)
         }
@@ -338,7 +338,7 @@ public extension JustLayout {
     }
     
     @discardableResult
-    public static func align<T>(_ attribute: NSLayoutAttribute, views: [T]) -> [T] where T: UIView {
+    public static func align<T>(_ attribute: NSLayoutConstraint.Attribute, views: [T]) -> [T] where T: UIView {
         for (i, v) in views.enumerated() where views.count > i+1 {
             let v2 = views[i+1]
             if let spv = v.superview {

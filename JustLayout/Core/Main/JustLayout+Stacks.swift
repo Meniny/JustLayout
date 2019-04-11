@@ -236,10 +236,10 @@ public extension UIView {
     }
     
     @discardableResult
-    fileprivate func stack<T>(_ axis: UILayoutConstraintAxis,
+    fileprivate func stack<T>(_ axis: NSLayoutConstraint.Axis,
                          points: CGFloat = 0, v: T) -> T where T: UIView {
-        let a: NSLayoutAttribute = axis == .vertical ? .top : .left
-        let b: NSLayoutAttribute = axis == .vertical ? .bottom : .right
+        let a: NSLayoutConstraint.Attribute = axis == .vertical ? .top : .left
+        let b: NSLayoutConstraint.Attribute = axis == .vertical ? .bottom : .right
         if let spv = superview {
             let c = constraint(item: v, attribute: a, toItem: self, attribute: b, constant: points)
             spv.addConstraint(c)

@@ -91,7 +91,7 @@ public extension UIButton {
     }
     
     @discardableResult
-    public func tap(_ event: UIControlEvents = .touchUpInside, action: UIButtonActionClosure?) -> Self {
+    public func tap(_ event: UIControl.Event = .touchUpInside, action: UIButtonActionClosure?) -> Self {
         #if swift(>=2.2)
             self.addTarget(self, action: #selector(self.tapped), for: .touchUpInside)
         #else

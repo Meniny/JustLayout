@@ -240,8 +240,8 @@ public extension UIView {
         return position(.bottom, relatedBy:n.relation, points: n.points)
     }
     
-    fileprivate func position(_ position: NSLayoutAttribute,
-                              relatedBy: NSLayoutRelation = .equal,
+    fileprivate func position(_ position: NSLayoutConstraint.Attribute,
+                              relatedBy: NSLayoutConstraint.Relation = .equal,
                               points: CGFloat) -> Self {
         if let spv = superview {
             let c = constraint(item: self, attribute: position,

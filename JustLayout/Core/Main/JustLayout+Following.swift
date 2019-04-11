@@ -238,8 +238,8 @@ public extension UIView {
         return flexible(.centerY, fm.relation, to: view, points: fm.points)
     }
     
-    fileprivate func flexible(_ attribute: NSLayoutAttribute,
-                           _ relation: NSLayoutRelation,
+    fileprivate func flexible(_ attribute: NSLayoutConstraint.Attribute,
+                           _ relation: NSLayoutConstraint.Relation,
                            to view: UIView,
                            points: CGFloat) -> Self {
         let c =  NSLayoutConstraint(item: self, attribute: attribute,

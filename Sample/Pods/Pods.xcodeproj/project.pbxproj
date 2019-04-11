@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -49,118 +49,118 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B4278662B882683E21EE457F0E7462 /* UIButton.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UIButton.html; path = docs/Extensions/UIButton.html; sourceTree = "<group>"; };
+		00B4278662B882683E21EE457F0E7462 /* UIButton.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = UIButton.html; path = docs/Extensions/UIButton.html; sourceTree = "<group>"; };
 		029EC8CD778B6391C2EF50C7080973E4 /* Pods-Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sample.modulemap"; sourceTree = "<group>"; };
 		05ADF3967EEEF63EAFBFA31B16D0A5BD /* Pods-Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sample-umbrella.h"; sourceTree = "<group>"; };
 		08AB6722940A8319F0E41224FBACCB3C /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
-		08FD46E684DB395393AC885AF09D206E /* JustLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JustLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		08FD46E684DB395393AC885AF09D206E /* JustLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JustLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0A80D3865321E32BA36A9D8F8AB475EC /* JustLayout+Equation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Equation.swift"; sourceTree = "<group>"; };
-		0BC320FB91B35B9712DA721D11954116 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
+		0BC320FB91B35B9712DA721D11954116 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.js; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
 		0D9056503C5F3CC9DCCE4B9256BF5B7B /* JustLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JustLayout.modulemap; sourceTree = "<group>"; };
 		14C453EE81ABA0F0F9CBC8EE8A36091B /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
-		15D87F241453427C2C1436A6F7E2A756 /* Typealiases.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Typealiases.html; path = docs/Typealiases.html; sourceTree = "<group>"; };
-		16A6EE81D09E7ADA3B24D9FF80491334 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/Extensions.html; sourceTree = "<group>"; };
-		1C1637C18BCDD1566D22193CAE4A3195 /* JustLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JustLayout.framework; path = JustLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		270B3BAD62E517131DDDC6DA630A2034 /* UILayoutSupport.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UILayoutSupport.html; path = docs/Extensions/UILayoutSupport.html; sourceTree = "<group>"; };
-		273A70E3AD91BD5A7C7AF60D4453ACA5 /* UIView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UIView.html; path = docs/Extensions/UIView.html; sourceTree = "<group>"; };
+		15D87F241453427C2C1436A6F7E2A756 /* Typealiases.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Typealiases.html; path = docs/Typealiases.html; sourceTree = "<group>"; };
+		16A6EE81D09E7ADA3B24D9FF80491334 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Extensions.html; path = docs/Extensions.html; sourceTree = "<group>"; };
+		1C1637C18BCDD1566D22193CAE4A3195 /* JustLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JustLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		270B3BAD62E517131DDDC6DA630A2034 /* UILayoutSupport.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = UILayoutSupport.html; path = docs/Extensions/UILayoutSupport.html; sourceTree = "<group>"; };
+		273A70E3AD91BD5A7C7AF60D4453ACA5 /* UIView.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = UIView.html; path = docs/Extensions/UIView.html; sourceTree = "<group>"; };
 		27BD31EB9E985766E41F552911A5B15F /* JustLayout+LayoutAnchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+LayoutAnchors.swift"; sourceTree = "<group>"; };
-		2E82E4AF8AEB54B608E55478073F1D44 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
+		2E82E4AF8AEB54B608E55478073F1D44 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = badge.svg; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
 		2ECCBE44A4B5EBA732480143F8B84311 /* JustLayout+Percentage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Percentage.swift"; sourceTree = "<group>"; };
-		2F136010D02F66D647671364725F09F1 /* JustLayout.html */ = {isa = PBXFileReference; includeInIndex = 1; name = JustLayout.html; path = docs/Structs/JustLayout.html; sourceTree = "<group>"; };
+		2F136010D02F66D647671364725F09F1 /* JustLayout.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = JustLayout.html; path = docs/Structs/JustLayout.html; sourceTree = "<group>"; };
 		2FF099AE2967A103D43A4CB1709CB20B /* JustLayout+Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Position.swift"; sourceTree = "<group>"; };
 		30D2B7C8F720D332DB2351908F54B2EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31D5A1313E77D523A19B35E5F51E412F /* UITableViewCell.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UITableViewCell.html; path = docs/Extensions/UITableViewCell.html; sourceTree = "<group>"; };
-		36EF970BE858F8E8C97883D9769FA1B1 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
+		31D5A1313E77D523A19B35E5F51E412F /* UITableViewCell.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = UITableViewCell.html; path = docs/Extensions/UITableViewCell.html; sourceTree = "<group>"; };
+		36EF970BE858F8E8C97883D9769FA1B1 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
 		389AADE6E96CD0687D5626FD0611D7EF /* JustLayout+Fill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Fill.swift"; sourceTree = "<group>"; };
-		39B33E885E3965D5FF322750F3835850 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions.html; sourceTree = "<group>"; };
-		3DFC9B8E949B751910F18FAF969D468D /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
-		3E5EE4A5C42C41AA35EFA79EB4C1509B /* UITextField.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UITextField.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UITextField.html; sourceTree = "<group>"; };
+		39B33E885E3965D5FF322750F3835850 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Extensions.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions.html; sourceTree = "<group>"; };
+		3DFC9B8E949B751910F18FAF969D468D /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
+		3E5EE4A5C42C41AA35EFA79EB4C1509B /* UITextField.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = UITextField.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UITextField.html; sourceTree = "<group>"; };
 		416C8C3C09044862432EFCE0A203CDC3 /* JustLayout+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Operators.swift"; sourceTree = "<group>"; };
-		41D204138F314E31C06117DE00E2AA04 /* Makable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Makable.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Protocols/Makable.html; sourceTree = "<group>"; };
-		43E3DEF4347D813455A22A7660AA5920 /* UIAppearance.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UIAppearance.html; path = docs/Extensions/UIAppearance.html; sourceTree = "<group>"; };
+		41D204138F314E31C06117DE00E2AA04 /* Makable.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Makable.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Protocols/Makable.html; sourceTree = "<group>"; };
+		43E3DEF4347D813455A22A7660AA5920 /* UIAppearance.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = UIAppearance.html; path = docs/Extensions/UIAppearance.html; sourceTree = "<group>"; };
 		447F27E57A255A5D225EA3423FD92BC1 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
-		46BEB01C0B43AD8E64F300685675941C /* NSObject.html */ = {isa = PBXFileReference; includeInIndex = 1; name = NSObject.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/NSObject.html; sourceTree = "<group>"; };
-		48E1A4971617C4F04DE01F6DE683B36E /* Makable.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Makable.html; path = docs/Protocols/Makable.html; sourceTree = "<group>"; };
-		48FC3FD1CBF09CFD2B04289D6C6469EE /* JustLayout.tgz */ = {isa = PBXFileReference; includeInIndex = 1; name = JustLayout.tgz; path = docs/docsets/JustLayout.tgz; sourceTree = "<group>"; };
-		49F7B598D8193B11F26A6D6152E6FC13 /* UILayoutGuide.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UILayoutGuide.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UILayoutGuide.html; sourceTree = "<group>"; };
-		4A081750BF0B1BD43855F4268344B738 /* UILayoutGuide.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UILayoutGuide.html; path = docs/Extensions/UILayoutGuide.html; sourceTree = "<group>"; };
-		4B8BBC98B679EB2765F25E6FC28EEBD5 /* UITableViewCell.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UITableViewCell.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UITableViewCell.html; sourceTree = "<group>"; };
-		4C99E4D2F5FE5067AC0246C79961DBEE /* JustLayoutAttribute.html */ = {isa = PBXFileReference; includeInIndex = 1; name = JustLayoutAttribute.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Structs/JustLayoutAttribute.html; sourceTree = "<group>"; };
+		46BEB01C0B43AD8E64F300685675941C /* NSObject.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = NSObject.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/NSObject.html; sourceTree = "<group>"; };
+		48E1A4971617C4F04DE01F6DE683B36E /* Makable.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Makable.html; path = docs/Protocols/Makable.html; sourceTree = "<group>"; };
+		48FC3FD1CBF09CFD2B04289D6C6469EE /* JustLayout.tgz */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = JustLayout.tgz; path = docs/docsets/JustLayout.tgz; sourceTree = "<group>"; };
+		49F7B598D8193B11F26A6D6152E6FC13 /* UILayoutGuide.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = UILayoutGuide.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UILayoutGuide.html; sourceTree = "<group>"; };
+		4A081750BF0B1BD43855F4268344B738 /* UILayoutGuide.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = UILayoutGuide.html; path = docs/Extensions/UILayoutGuide.html; sourceTree = "<group>"; };
+		4B8BBC98B679EB2765F25E6FC28EEBD5 /* UITableViewCell.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = UITableViewCell.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UITableViewCell.html; sourceTree = "<group>"; };
+		4C99E4D2F5FE5067AC0246C79961DBEE /* JustLayoutAttribute.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = JustLayoutAttribute.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Structs/JustLayoutAttribute.html; sourceTree = "<group>"; };
 		4CA7277271C210350E8BCB9A3F4D17B1 /* JustLayout+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Size.swift"; sourceTree = "<group>"; };
 		4D6F22A36DE9C57A772C9682863EA195 /* JustLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JustLayout.swift; sourceTree = "<group>"; };
 		5086FBE9061399F9B8A8EC0E414C0CE0 /* JustLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JustLayout-dummy.m"; sourceTree = "<group>"; };
-		5263EB9E9514B299C22219E0E907FB7C /* JustLayoutAttribute.html */ = {isa = PBXFileReference; includeInIndex = 1; name = JustLayoutAttribute.html; path = docs/Structs/JustLayoutAttribute.html; sourceTree = "<group>"; };
+		5263EB9E9514B299C22219E0E907FB7C /* JustLayoutAttribute.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = JustLayoutAttribute.html; path = docs/Structs/JustLayoutAttribute.html; sourceTree = "<group>"; };
 		5645E3F23DFE88379E8172E148A5442A /* JustLayout+Alignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Alignment.swift"; sourceTree = "<group>"; };
 		56BDD699012DC0865CFABEA33810DC6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5732BE0EB969C2FCCB994F2B5DB12B21 /* UIButton.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UIButton.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UIButton.html; sourceTree = "<group>"; };
+		5732BE0EB969C2FCCB994F2B5DB12B21 /* UIButton.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = UIButton.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UIButton.html; sourceTree = "<group>"; };
 		57AA49D971B7CF423DA50C0A9F587F7C /* JustLayout+Remake.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Remake.swift"; sourceTree = "<group>"; };
 		5841708291E0C0E36654CE50FBFA4CEE /* JustLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JustLayout.h; path = JustLayout/JustLayout.h; sourceTree = "<group>"; };
-		59CB6F85E87A1029ED2B0A7442D60D80 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
+		59CB6F85E87A1029ED2B0A7442D60D80 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A901BE54A70466727637496173547A5 /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Structs.html; path = docs/Structs.html; sourceTree = "<group>"; };
-		6BA2252877C2C4DDD8A69FD09B117D1C /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
-		6D4EB882A53C5EFB309B15182C9C3E2C /* UILayoutSupport.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UILayoutSupport.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UILayoutSupport.html; sourceTree = "<group>"; };
+		6A901BE54A70466727637496173547A5 /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Structs.html; path = docs/Structs.html; sourceTree = "<group>"; };
+		6BA2252877C2C4DDD8A69FD09B117D1C /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = jazzy.css; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
+		6D4EB882A53C5EFB309B15182C9C3E2C /* UILayoutSupport.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = UILayoutSupport.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UILayoutSupport.html; sourceTree = "<group>"; };
 		6E24F5740282704524CB56319A8FF44D /* Pods-Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-frameworks.sh"; sourceTree = "<group>"; };
-		6FAD72E6953A8C32285D20CCF1D7B807 /* UIAppearance.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UIAppearance.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UIAppearance.html; sourceTree = "<group>"; };
-		72D8454775BE2CB9584F62BB61B7BA10 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
-		7535F17859332E2F5BB9E1684C365FCF /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
-		7630767AB298B22FFE0CADFF2E12F4AD /* Array.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Array.html; path = docs/Extensions/Array.html; sourceTree = "<group>"; };
+		6FAD72E6953A8C32285D20CCF1D7B807 /* UIAppearance.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = UIAppearance.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UIAppearance.html; sourceTree = "<group>"; };
+		72D8454775BE2CB9584F62BB61B7BA10 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
+		7535F17859332E2F5BB9E1684C365FCF /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		7630767AB298B22FFE0CADFF2E12F4AD /* Array.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Array.html; path = docs/Extensions/Array.html; sourceTree = "<group>"; };
 		764AC3F81745CAD50FC430A92BD4BC57 /* JustLayout+Following.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Following.swift"; sourceTree = "<group>"; };
-		78156E1F0208E6DCFBCDAD0BA1DD688C /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
+		78156E1F0208E6DCFBCDAD0BA1DD688C /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
 		81EE6DEE83DC69D5754D159626B0DD0C /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
-		860C900F499CF506CF01B81B0C978A18 /* NSObject.html */ = {isa = PBXFileReference; includeInIndex = 1; name = NSObject.html; path = docs/Extensions/NSObject.html; sourceTree = "<group>"; };
+		860C900F499CF506CF01B81B0C978A18 /* NSObject.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = NSObject.html; path = docs/Extensions/NSObject.html; sourceTree = "<group>"; };
 		86D9CAB27DC9AB0C1F4806976B367318 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
 		8DE1C6DFC44BFC0D0EB35CAB69587D18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/JustLayout.docset/Contents/Info.plist; sourceTree = "<group>"; };
 		8E1DE330B26B233ADD9FE58F76884737 /* JustLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JustLayout.xcconfig; sourceTree = "<group>"; };
-		8EC4BD6DF52A3935BA7DD89E84C0B4B2 /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sample.framework; path = "Pods-Sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F75F393A8241B9FF5290449546BCDFA /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
+		8EC4BD6DF52A3935BA7DD89E84C0B4B2 /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F75F393A8241B9FF5290449546BCDFA /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Protocols.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
 		9378544676658BEF9646EF3EF0C8539C /* JustLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustLayout-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93AB39AF9453CDA12EBF17207296133D /* Typealiases.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Typealiases.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Typealiases.html; sourceTree = "<group>"; };
-		97A6A73A1EFC3E287F83C11209F638BD /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
-		983A6BD70D75143F42D36559A35DB618 /* UIView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UIView.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UIView.html; sourceTree = "<group>"; };
-		98ECF0D9D1F4317CED9D7AC0BE798BD5 /* Array.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Array.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/Array.html; sourceTree = "<group>"; };
-		9B8A343E35B883B04E5ABD009B52FA57 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93AB39AF9453CDA12EBF17207296133D /* Typealiases.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Typealiases.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Typealiases.html; sourceTree = "<group>"; };
+		97A6A73A1EFC3E287F83C11209F638BD /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = highlight.css; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
+		983A6BD70D75143F42D36559A35DB618 /* UIView.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = UIView.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UIView.html; sourceTree = "<group>"; };
+		98ECF0D9D1F4317CED9D7AC0BE798BD5 /* Array.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Array.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/Array.html; sourceTree = "<group>"; };
+		9B8A343E35B883B04E5ABD009B52FA57 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = undocumented.json; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
 		9E70CA329077CD04620244FCCCC45B68 /* Pods-Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sample-acknowledgements.plist"; sourceTree = "<group>"; };
 		A7443BC8AC9471B679559D62AB733147 /* JustLayout+Center.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Center.swift"; sourceTree = "<group>"; };
-		AFAAFCC02ABD5B28502EF112743511C8 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
+		AFAAFCC02ABD5B28502EF112743511C8 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Classes.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
 		B591D04D9C5B71D3CB990ABB7434B49A /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		BB9DB336872930055E27D0301613CB92 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
-		BCD7EBBE5BB4CF644203BECC2AB2C12D /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
-		C1C240A2A71F2A957EE6D238A10AC322 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
-		C31C8E30D4909927B1E6932CB3D5C53D /* Functions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Functions.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Functions.html; sourceTree = "<group>"; };
-		C58A3E97801461610A4D53686E90A137 /* UICollectionViewCell.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UICollectionViewCell.html; path = docs/Extensions/UICollectionViewCell.html; sourceTree = "<group>"; };
-		C5D007236293A77D2F596E2B44200611 /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; name = docSet.dsidx; path = docs/docsets/JustLayout.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
+		BCD7EBBE5BB4CF644203BECC2AB2C12D /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
+		C1C240A2A71F2A957EE6D238A10AC322 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
+		C31C8E30D4909927B1E6932CB3D5C53D /* Functions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Functions.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Functions.html; sourceTree = "<group>"; };
+		C58A3E97801461610A4D53686E90A137 /* UICollectionViewCell.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = UICollectionViewCell.html; path = docs/Extensions/UICollectionViewCell.html; sourceTree = "<group>"; };
+		C5D007236293A77D2F596E2B44200611 /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = docSet.dsidx; path = docs/docsets/JustLayout.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
 		C623B2FE5098D9B83CC1030CC36EC935 /* Pods-Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CBB62ED860BF14F1E968A9A1B843B0F5 /* UITextField.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UITextField.html; path = docs/Extensions/UITextField.html; sourceTree = "<group>"; };
-		CE7849925D6994216B9D7176B27E5785 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
+		CBB62ED860BF14F1E968A9A1B843B0F5 /* UITextField.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = UITextField.html; path = docs/Extensions/UITextField.html; sourceTree = "<group>"; };
+		CE7849925D6994216B9D7176B27E5785 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
 		CFBD359E5308AFF8EB3DFE040393E1BC /* Pods-Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sample-dummy.m"; sourceTree = "<group>"; };
-		CFFBCD83D058E60F2522CA197A4067CC /* UICollectionViewCell.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UICollectionViewCell.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UICollectionViewCell.html; sourceTree = "<group>"; };
-		D0D2D7FBC709A97E5762FFC9DDE69458 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
+		CFFBCD83D058E60F2522CA197A4067CC /* UICollectionViewCell.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = UICollectionViewCell.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UICollectionViewCell.html; sourceTree = "<group>"; };
+		D0D2D7FBC709A97E5762FFC9DDE69458 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = index.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
 		D0E3952B31C0C1490EA2D4860958D335 /* JustLayout+FlexibleMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+FlexibleMargin.swift"; sourceTree = "<group>"; };
-		D535A4D67C4BB5F1D8FBF86822CFBE4A /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
-		D5A22C8CDD38BE4EFEF186A7F56EA3CC /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Structs.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Structs.html; sourceTree = "<group>"; };
-		D6EB25E3FADE871E8573AFBFB330A887 /* UILabel.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UILabel.html; path = docs/Extensions/UILabel.html; sourceTree = "<group>"; };
-		D9234EAD61B0ACFCE1766EBC23DB9C97 /* UIImageView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UIImageView.html; path = docs/Extensions/UIImageView.html; sourceTree = "<group>"; };
-		D9682D193CA5364D2390DB698BD78C9B /* Functions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Functions.html; path = docs/Functions.html; sourceTree = "<group>"; };
+		D535A4D67C4BB5F1D8FBF86822CFBE4A /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = search.json; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
+		D5A22C8CDD38BE4EFEF186A7F56EA3CC /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Structs.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Structs.html; sourceTree = "<group>"; };
+		D6EB25E3FADE871E8573AFBFB330A887 /* UILabel.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = UILabel.html; path = docs/Extensions/UILabel.html; sourceTree = "<group>"; };
+		D9234EAD61B0ACFCE1766EBC23DB9C97 /* UIImageView.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = UIImageView.html; path = docs/Extensions/UIImageView.html; sourceTree = "<group>"; };
+		D9682D193CA5364D2390DB698BD78C9B /* Functions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Functions.html; path = docs/Functions.html; sourceTree = "<group>"; };
 		D98DD9CB04707148E2C6A24CE2E0797C /* JustLayout+Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Content.swift"; sourceTree = "<group>"; };
 		DB63AFDCFFCD51B35F70D5DA02A04FEF /* JustLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustLayout-prefix.pch"; sourceTree = "<group>"; };
 		E0E79F4982D623A29BC9C0F2680B47D8 /* JustLayout+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Style.swift"; sourceTree = "<group>"; };
 		E0F108472D99D7B816F0282299BBB9B3 /* JustLayout+Stacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Stacks.swift"; sourceTree = "<group>"; };
-		E21A3F5CDB0B32B38ECFE858F5E9E5D3 /* UILabel.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UILabel.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UILabel.html; sourceTree = "<group>"; };
+		E21A3F5CDB0B32B38ECFE858F5E9E5D3 /* UILabel.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = UILabel.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UILabel.html; sourceTree = "<group>"; };
 		E2BF5065F9A038E685ABED49B6B4505A /* JustLayout+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Hierarchy.swift"; sourceTree = "<group>"; };
-		E35B125EDBB5E61D8C34BB95E979874A /* README.adoc */ = {isa = PBXFileReference; includeInIndex = 1; path = README.adoc; sourceTree = "<group>"; };
-		E474A1433C7B6B3BF518EB55156797DA /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
+		E35B125EDBB5E61D8C34BB95E979874A /* README.adoc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = README.adoc; sourceTree = "<group>"; };
+		E474A1433C7B6B3BF518EB55156797DA /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
 		E6595EB651D858E5E1B431970B17171B /* Pods-Sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-resources.sh"; sourceTree = "<group>"; };
 		E7B1654F98C660006388142A059EEB2F /* JustLayout+Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Constraints.swift"; sourceTree = "<group>"; };
-		E913AB650377FB9DF02136B504A54508 /* JustLayout.html */ = {isa = PBXFileReference; includeInIndex = 1; name = JustLayout.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Structs/JustLayout.html; sourceTree = "<group>"; };
+		E913AB650377FB9DF02136B504A54508 /* JustLayout.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = JustLayout.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Structs/JustLayout.html; sourceTree = "<group>"; };
 		E942080AE64DF9C0CB385D5550437DE3 /* JustLayout+Tap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+Tap.swift"; sourceTree = "<group>"; };
 		EB15CCB3FCF7A77CB9BFD3A48989F7AF /* JustLayout+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JustLayout+DSL.swift"; path = "JustLayout/DSL/JustLayout+DSL.swift"; sourceTree = "<group>"; };
-		EC715F2976362264B8E1F41047BAE343 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
+		EC715F2976362264B8E1F41047BAE343 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
 		ED199D45F0B3D9C8F24ACE894EF6B83B /* JustLayout+GetConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+GetConstraint.swift"; sourceTree = "<group>"; };
-		ED3AE3D40D6717471DBEBCBA1144C99B /* UIImageView.html */ = {isa = PBXFileReference; includeInIndex = 1; name = UIImageView.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UIImageView.html; sourceTree = "<group>"; };
+		ED3AE3D40D6717471DBEBCBA1144C99B /* UIImageView.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = UIImageView.html; path = docs/docsets/JustLayout.docset/Contents/Resources/Documents/Extensions/UIImageView.html; sourceTree = "<group>"; };
 		EE24C384209E07ABB68ACB4311BE2F03 /* JustLayout+HeightOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "JustLayout+HeightOperators.swift"; sourceTree = "<group>"; };
-		F113F83EBC6A3349C812633B39C6691B /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
+		F113F83EBC6A3349C812633B39C6691B /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
 		FE2151AE48CC17840FAB8D2AB09A9CFD /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -277,7 +277,6 @@
 				E0E79F4982D623A29BC9C0F2680B47D8 /* JustLayout+Style.swift */,
 				E942080AE64DF9C0CB385D5550437DE3 /* JustLayout+Tap.swift */,
 			);
-			name = Extensions;
 			path = Extensions;
 			sourceTree = "<group>";
 		};
@@ -367,7 +366,6 @@
 				4CA7277271C210350E8BCB9A3F4D17B1 /* JustLayout+Size.swift */,
 				E0F108472D99D7B816F0282299BBB9B3 /* JustLayout+Stacks.swift */,
 			);
-			name = Main;
 			path = Main;
 			sourceTree = "<group>";
 		};
@@ -486,14 +484,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					8F94D8B94EBD18DC2A90D02F2A0F912F = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 2B3AF15A7A45B5AD9FFFFB343074930E /* Products */;
@@ -561,6 +565,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -645,7 +650,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -677,7 +682,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -759,6 +764,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

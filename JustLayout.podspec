@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JustLayout'
   s.module_name      = 'JustLayout'
-  s.version          = "1.5.0"
+  s.version          = "1.6.0"
   s.summary          = "An elegant Auto Layout sugar for iOS"
   s.description      = "JustLayout is an elegant Auto Layout sugar for iOS."
 
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.source           = { :git => "https://github.com/Meniny/JustLayout.git", :tag => s.version.to_s }
   s.requires_arc     = true
-  s.swift_version    = '4.1'
+  s.swift_version    = '5'
 
   s.ios.deployment_target = "8"
   s.tvos.deployment_target = "10.2"

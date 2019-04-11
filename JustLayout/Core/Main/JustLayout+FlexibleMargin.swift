@@ -76,7 +76,7 @@ public prefix func <= (p: CGFloat) -> JustLayoutFlexibleMargin {
 
 public struct JustLayoutFlexibleMargin {
     var points: CGFloat!
-    var relation: NSLayoutRelation!
+    var relation: NSLayoutConstraint.Relation!
 }
 
 public struct PartialFlexibleConstraint {
