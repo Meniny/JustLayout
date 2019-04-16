@@ -85,43 +85,43 @@ public struct JustLayoutAttribute {
 
 public extension UIView {
     
-    public var widthAttribute: JustLayoutAttribute {
+    var widthAttribute: JustLayoutAttribute {
         return JustLayoutAttribute(view: self, attribute: .width)
     }
     
-    public var heightAttribute: JustLayoutAttribute {
+    var heightAttribute: JustLayoutAttribute {
         return JustLayoutAttribute(view: self, attribute: .height)
     }
     
-    public var topAttribute: JustLayoutAttribute {
+    var topAttribute: JustLayoutAttribute {
         return JustLayoutAttribute(view: self, attribute: .top)
     }
     
-    public var bottomAttribute: JustLayoutAttribute {
+    var bottomAttribute: JustLayoutAttribute {
         return JustLayoutAttribute(view: self, attribute: .bottom)
     }
     
-    public var leftAttribute: JustLayoutAttribute {
+    var leftAttribute: JustLayoutAttribute {
         return JustLayoutAttribute(view: self, attribute: .left)
     }
     
-    public var rightAttribute: JustLayoutAttribute {
+    var rightAttribute: JustLayoutAttribute {
         return JustLayoutAttribute(view: self, attribute: .right)
     }
     
-    public var leadingAttribute: JustLayoutAttribute {
+    var leadingAttribute: JustLayoutAttribute {
         return JustLayoutAttribute(view: self, attribute: .leading)
     }
     
-    public var crailingAttribute: JustLayoutAttribute {
+    var crailingAttribute: JustLayoutAttribute {
         return JustLayoutAttribute(view: self, attribute: .trailing)
     }
     
-    public var centerXAttribute: JustLayoutAttribute {
+    var centerXAttribute: JustLayoutAttribute {
         return JustLayoutAttribute(view: self, attribute: .centerX)
     }
     
-    public var centerYAttribute: JustLayoutAttribute {
+    var centerYAttribute: JustLayoutAttribute {
         return JustLayoutAttribute(view: self, attribute: .centerY)
     }
 }

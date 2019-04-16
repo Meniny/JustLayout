@@ -67,59 +67,59 @@ import UIKit
 public extension UIView {
     
     @discardableResult
-    public func left(_ view: UIView, _ offset: CGFloat = 0) -> Self {
+    func left(_ view: UIView, _ offset: CGFloat = 0) -> Self {
         leftAttribute == view.leftAttribute + offset
         return self
     }
     
     @discardableResult
-    public func right(_ view: UIView, _ offset: CGFloat = 0) -> Self {
+    func right(_ view: UIView, _ offset: CGFloat = 0) -> Self {
         rightAttribute == view.rightAttribute + offset
         return self
     }
     
     @discardableResult
-    public func top(_ view: UIView, _ offset: CGFloat = 0) -> Self {
+    func top(_ view: UIView, _ offset: CGFloat = 0) -> Self {
         topAttribute == view.topAttribute + offset
         return self
     }
     
     @discardableResult
-    public func bottom(_ view: UIView, _ offset: CGFloat = 0) -> Self {
+    func bottom(_ view: UIView, _ offset: CGFloat = 0) -> Self {
         bottomAttribute == view.bottomAttribute + offset
         return self
     }
     
     @discardableResult
-    public func width(_ view: UIView, _ offset: CGFloat = 0) -> Self {
+    func width(_ view: UIView, _ offset: CGFloat = 0) -> Self {
         widthAttribute == view.widthAttribute + offset
         return self
     }
     
     @discardableResult
-    public func height(_ view: UIView, _ offset: CGFloat = 0) -> Self {
+    func height(_ view: UIView, _ offset: CGFloat = 0) -> Self {
         heightAttribute == view.heightAttribute + offset
         return self
     }
     
     @discardableResult
-    public func size(_ view: UIView, _ offset: CGFloat = 0) -> Self {
+    func size(_ view: UIView, _ offset: CGFloat = 0) -> Self {
         return width(view, offset).height(view, offset)
     }
     
     @discardableResult
-    public func center(_ view: UIView, _ offset: CGFloat = 0) -> Self {
-        return centerX(view, offset).center(view, offset)
+    func center(_ view: UIView, _ offset: CGFloat = 0) -> Self {
+        return centerX(view, offset).centerY(view, offset)
     }
     
     @discardableResult
-    public func centerX(_ view: UIView, _ offset: CGFloat = 0) -> Self {
+    func centerX(_ view: UIView, _ offset: CGFloat = 0) -> Self {
         centerXAttribute == view.centerXAttribute + offset
         return self
     }
     
     @discardableResult
-    public func centerY(_ view: UIView, _ offset: CGFloat = 0) -> Self {
+    func centerY(_ view: UIView, _ offset: CGFloat = 0) -> Self {
         centerYAttribute == view.centerYAttribute + offset
         return self
     }
@@ -128,59 +128,59 @@ public extension UIView {
 // MARK: - Percentage
 public extension UIView {
     @discardableResult
-    public func left(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
+    func left(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
         leftAttribute == percentage.value % view.leftAttribute
         return self
     }
     
     @discardableResult
-    public func right(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
+    func right(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
         rightAttribute == percentage.value % view.rightAttribute
         return self
     }
     
     @discardableResult
-    public func top(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
+    func top(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
         topAttribute == percentage.value % view.topAttribute
         return self
     }
     
     @discardableResult
-    public func bottom(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
+    func bottom(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
         bottomAttribute == percentage.value % view.bottomAttribute
         return self
     }
     
     @discardableResult
-    public func width(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
+    func width(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
         widthAttribute == percentage.value % view.widthAttribute
         return self
     }
     
     @discardableResult
-    public func height(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
+    func height(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
         heightAttribute == percentage.value % view.heightAttribute
         return self
     }
     
     @discardableResult
-    public func size(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
+    func size(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
         return width(view, percentage).height(view, percentage)
     }
     
     @discardableResult
-    public func center(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
-        return centerX(view, percentage).center(view, percentage)
+    func center(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
+        return centerX(view, percentage).centerY(view, percentage)
     }
     
     @discardableResult
-    public func centerX(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
+    func centerX(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
         centerXAttribute == percentage.value % view.centerXAttribute
         return self
     }
     
     @discardableResult
-    public func centerY(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
+    func centerY(_ view: UIView, _ percentage: JustLayoutPercentage) -> Self {
         centerYAttribute == percentage.value % view.centerYAttribute
         return self
     }
@@ -189,52 +189,52 @@ public extension UIView {
 // MARK: - Flexible Margin
 public extension UIView {
     @discardableResult
-    public func left(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
+    func left(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
         return flexible(.left, fm.relation, to: view, points: fm.points)
     }
     
     @discardableResult
-    public func right(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
+    func right(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
         return flexible(.right, fm.relation, to: view, points: fm.points)
     }
     
     @discardableResult
-    public func top(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
+    func top(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
         return flexible(.top, fm.relation, to: view, points: fm.points)
     }
     
     @discardableResult
-    public func bottom(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
+    func bottom(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
         return flexible(.bottom, fm.relation, to: view, points: fm.points)
     }
     
     @discardableResult
-    public func width(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
+    func width(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
         return flexible(.width, fm.relation, to: view, points: fm.points)
     }
     
     @discardableResult
-    public func height(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
+    func height(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
         return flexible(.height, fm.relation, to: view, points: fm.points)
     }
     
     @discardableResult
-    public func size(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
+    func size(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
         return width(view, fm).height(view, fm)
     }
     
     @discardableResult
-    public func center(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
-        return centerX(view, fm).center(view, fm)
+    func center(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
+        return centerX(view, fm).centerY(view, fm)
     }
     
     @discardableResult
-    public func centerX(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
+    func centerX(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
         return flexible(.centerX, fm.relation, to: view, points: fm.points)
     }
     
     @discardableResult
-    public func centerY(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
+    func centerY(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> Self {
         return flexible(.centerY, fm.relation, to: view, points: fm.points)
     }
     
@@ -259,22 +259,22 @@ public extension UIView {
 // MARK: - Aspect Ratio
 public extension UIView {
     @discardableResult
-    public func width(followHeight offset: CGFloat = 0) -> Self {
+    func width(followHeight offset: CGFloat = 0) -> Self {
         return aspectratio(followHeight: offset)
     }
     
     @discardableResult
-    public func height(followWidth offset: CGFloat = 0) -> Self {
+    func height(followWidth offset: CGFloat = 0) -> Self {
         return aspectratio(followWidth: offset)
     }
     
     @discardableResult
-    public func width(followHeight percentage: JustLayoutPercentage, of view: UIView? = nil) -> Self {
+    func width(followHeight percentage: JustLayoutPercentage, of view: UIView? = nil) -> Self {
         return aspectratio(followHeight: percentage, of: view)
     }
     
     @discardableResult
-    public func height(followWidth percentage: JustLayoutPercentage, of view: UIView? = nil) -> Self {
+    func height(followWidth percentage: JustLayoutPercentage, of view: UIView? = nil) -> Self {
         return aspectratio(followWidth: percentage, of: view)
     }
 }
@@ -283,25 +283,25 @@ public extension UIView {
 public extension UIView {
     
     @discardableResult
-    public func following(_ view: UIView, offset: CGFloat = 0) -> Self {
+    func following(_ view: UIView, offset: CGFloat = 0) -> Self {
         leftAttribute == view.rightAttribute + offset
         return self
     }
     
     @discardableResult
-    public func leading(_ view: UIView, offset: CGFloat = 0) -> Self {
+    func leading(_ view: UIView, offset: CGFloat = 0) -> Self {
         view.following(self, offset: offset)
         return self
     }
     
     @discardableResult
-    public func below(_ view: UIView, offset: CGFloat = 0) -> Self {
+    func below(_ view: UIView, offset: CGFloat = 0) -> Self {
         bottomAttribute == view.rightAttribute + offset
         return self
     }
     
     @discardableResult
-    public func above(_ view: UIView, offset: CGFloat = 0) -> Self {
+    func above(_ view: UIView, offset: CGFloat = 0) -> Self {
         view.below(self, offset: offset)
         return self
     }

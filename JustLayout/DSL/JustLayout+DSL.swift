@@ -69,104 +69,104 @@ public struct JustLayoutDSL<T: UIView> {
 
 public extension JustLayoutDSL {
     @discardableResult
-    public func left(_ offset: CGFloat = 0) -> T {
+    func left(_ offset: CGFloat = 0) -> T {
         return associated.left(offset)
     }
     
     @discardableResult
-    public func right(_ offset: CGFloat = 0) -> T {
+    func right(_ offset: CGFloat = 0) -> T {
         return associated.right(offset)
     }
     
     @discardableResult
-    public func top(_ offset: CGFloat = 0) -> T {
+    func top(_ offset: CGFloat = 0) -> T {
         return associated.top(offset)
     }
     
     @discardableResult
-    public func bottom(_ offset: CGFloat = 0) -> T {
+    func bottom(_ offset: CGFloat = 0) -> T {
         return associated.bottom(offset)
     }
     
     @discardableResult
-    public func width(_ offset: CGFloat) -> T {
+    func width(_ offset: CGFloat) -> T {
         return associated.width(offset)
     }
     
     @discardableResult
-    public func height(_ offset: CGFloat) -> T {
+    func height(_ offset: CGFloat) -> T {
         return associated.height(offset)
     }
     
     @discardableResult
-    public func size(_ offset: CGFloat) -> T {
+    func size(_ offset: CGFloat) -> T {
         return associated.size(offset)
     }
     
     @discardableResult
-    public func center(_ offset: CGFloat = 0) -> T {
+    func center(_ offset: CGFloat = 0) -> T {
         return associated.centerVertically(offset).centerHorizontally(offset)
     }
     
     @discardableResult
-    public func centerX(_ offset: CGFloat = 0) -> T {
+    func centerX(_ offset: CGFloat = 0) -> T {
         return associated.centerHorizontally(offset)
     }
     
     @discardableResult
-    public func centerY(_ offset: CGFloat = 0) -> T {
+    func centerY(_ offset: CGFloat = 0) -> T {
         return associated.centerVertically(offset)
     }
 }
 
 public extension JustLayoutDSL {
     @discardableResult
-    public func left(_ view: UIView, _ offset: CGFloat = 0) -> T {
+    func left(_ view: UIView, _ offset: CGFloat = 0) -> T {
         return associated.left(view, offset)
     }
     
     @discardableResult
-    public func right(_ view: UIView, _ offset: CGFloat = 0) -> T {
+    func right(_ view: UIView, _ offset: CGFloat = 0) -> T {
         return associated.right(view, offset)
     }
     
     @discardableResult
-    public func top(_ view: UIView, _ offset: CGFloat = 0) -> T {
+    func top(_ view: UIView, _ offset: CGFloat = 0) -> T {
         return associated.top(view, offset)
     }
     
     @discardableResult
-    public func bottom(_ view: UIView, _ offset: CGFloat = 0) -> T {
+    func bottom(_ view: UIView, _ offset: CGFloat = 0) -> T {
         return associated.bottom(view, offset)
     }
     
     @discardableResult
-    public func width(_ view: UIView, _ offset: CGFloat = 0) -> T {
+    func width(_ view: UIView, _ offset: CGFloat = 0) -> T {
         return associated.width(view, offset)
     }
     
     @discardableResult
-    public func height(_ view: UIView, _ offset: CGFloat = 0) -> T {
+    func height(_ view: UIView, _ offset: CGFloat = 0) -> T {
         return associated.height(view, offset)
     }
     
     @discardableResult
-    public func size(_ view: UIView, _ offset: CGFloat = 0) -> T {
+    func size(_ view: UIView, _ offset: CGFloat = 0) -> T {
         return associated.size(view, offset)
     }
     
     @discardableResult
-    public func center(_ view: UIView, _ offset: CGFloat = 0) -> T {
+    func center(_ view: UIView, _ offset: CGFloat = 0) -> T {
         return associated.center(view, offset)
     }
     
     @discardableResult
-    public func centerX(_ view: UIView, _ offset: CGFloat = 0) -> T {
+    func centerX(_ view: UIView, _ offset: CGFloat = 0) -> T {
         return associated.centerX(view, offset)
     }
     
     @discardableResult
-    public func centerY(_ view: UIView, _ offset: CGFloat = 0) -> T {
+    func centerY(_ view: UIView, _ offset: CGFloat = 0) -> T {
         return associated.centerY(view, offset)
     }
 }
@@ -175,89 +175,89 @@ public extension JustLayoutDSL {
 
 public extension JustLayoutDSL {
     @discardableResult
-    public func left(_ p: JustLayoutPercentage) -> T {
+    func left(_ p: JustLayoutPercentage) -> T {
         return associated.left(p)
     }
     
     @discardableResult
-    public func right(_ p: JustLayoutPercentage) -> T {
+    func right(_ p: JustLayoutPercentage) -> T {
         return associated.right(p)
     }
     
     @discardableResult
-    public func top(_ p: JustLayoutPercentage) -> T {
+    func top(_ p: JustLayoutPercentage) -> T {
         return associated.top(p)
     }
     
     @discardableResult
-    public func bottom(_ p: JustLayoutPercentage) -> T {
+    func bottom(_ p: JustLayoutPercentage) -> T {
         return associated.bottom(p)
     }
     
     @discardableResult
-    public func width(_ p: JustLayoutPercentage) -> T {
+    func width(_ p: JustLayoutPercentage) -> T {
         return associated.width(p)
     }
     
     @discardableResult
-    public func height(_ p: JustLayoutPercentage) -> T {
+    func height(_ p: JustLayoutPercentage) -> T {
         return associated.height(p)
     }
     
     @discardableResult
-    public func size(_ p: JustLayoutPercentage) -> T {
+    func size(_ p: JustLayoutPercentage) -> T {
         return associated.size(p)
     }
 }
 
 public extension JustLayoutDSL {
     @discardableResult
-    public func left(_ view: UIView, _ p: JustLayoutPercentage) -> T {
+    func left(_ view: UIView, _ p: JustLayoutPercentage) -> T {
         return associated.left(view, p)
     }
     
     @discardableResult
-    public func right(_ view: UIView, _ p: JustLayoutPercentage) -> T {
+    func right(_ view: UIView, _ p: JustLayoutPercentage) -> T {
         return associated.right(view, p)
     }
     
     @discardableResult
-    public func top(_ view: UIView, _ p: JustLayoutPercentage) -> T {
+    func top(_ view: UIView, _ p: JustLayoutPercentage) -> T {
         return associated.top(view, p)
     }
     
     @discardableResult
-    public func bottom(_ view: UIView, _ p: JustLayoutPercentage) -> T {
+    func bottom(_ view: UIView, _ p: JustLayoutPercentage) -> T {
         return associated.bottom(view, p)
     }
     
     @discardableResult
-    public func width(_ view: UIView, _ p: JustLayoutPercentage) -> T {
+    func width(_ view: UIView, _ p: JustLayoutPercentage) -> T {
         return associated.width(view, p)
     }
     
     @discardableResult
-    public func height(_ view: UIView, _ p: JustLayoutPercentage) -> T {
+    func height(_ view: UIView, _ p: JustLayoutPercentage) -> T {
         return associated.height(view, p)
     }
     
     @discardableResult
-    public func size(_ view: UIView, _ p: JustLayoutPercentage) -> T {
+    func size(_ view: UIView, _ p: JustLayoutPercentage) -> T {
         return associated.size(view, p)
     }
     
     @discardableResult
-    public func center(_ view: UIView, _ p: JustLayoutPercentage) -> T {
+    func center(_ view: UIView, _ p: JustLayoutPercentage) -> T {
         return associated.center(view, p)
     }
     
     @discardableResult
-    public func centerX(_ view: UIView, _ p: JustLayoutPercentage) -> T {
+    func centerX(_ view: UIView, _ p: JustLayoutPercentage) -> T {
         return associated.centerX(view, p)
     }
     
     @discardableResult
-    public func centerY(_ view: UIView, _ p: JustLayoutPercentage) -> T {
+    func centerY(_ view: UIView, _ p: JustLayoutPercentage) -> T {
         return associated.centerY(view, p)
     }
 }
@@ -266,116 +266,116 @@ public extension JustLayoutDSL {
 
 public extension JustLayoutDSL {
     @discardableResult
-    public func left(_ fm: JustLayoutFlexibleMargin) -> T {
+    func left(_ fm: JustLayoutFlexibleMargin) -> T {
         return associated.left(fm)
     }
     
     @discardableResult
-    public func right(_ fm: JustLayoutFlexibleMargin) -> T {
+    func right(_ fm: JustLayoutFlexibleMargin) -> T {
         return associated.right(fm)
     }
     
     @discardableResult
-    public func top(_ fm: JustLayoutFlexibleMargin) -> T {
+    func top(_ fm: JustLayoutFlexibleMargin) -> T {
         return associated.top(fm)
     }
     
     @discardableResult
-    public func bottom(_ fm: JustLayoutFlexibleMargin) -> T {
+    func bottom(_ fm: JustLayoutFlexibleMargin) -> T {
         return associated.bottom(fm)
     }
     
     @discardableResult
-    public func width(_ fm: JustLayoutFlexibleMargin) -> T {
+    func width(_ fm: JustLayoutFlexibleMargin) -> T {
         return associated.width(fm)
     }
     
     @discardableResult
-    public func height(_ fm: JustLayoutFlexibleMargin) -> T {
+    func height(_ fm: JustLayoutFlexibleMargin) -> T {
         return associated.height(fm)
     }
     
     @discardableResult
-    public func size(_ fm: JustLayoutFlexibleMargin) -> T {
+    func size(_ fm: JustLayoutFlexibleMargin) -> T {
         return associated.width(fm).height(fm)
     }
 }
 
 public extension JustLayoutDSL {
     @discardableResult
-    public func left(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
+    func left(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
         return associated.left(view, fm)
     }
     
     @discardableResult
-    public func right(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
+    func right(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
         return associated.right(view, fm)
     }
     
     @discardableResult
-    public func top(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
+    func top(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
         return associated.top(view, fm)
     }
     
     @discardableResult
-    public func bottom(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
+    func bottom(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
         return associated.bottom(view, fm)
     }
     
     @discardableResult
-    public func width(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
+    func width(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
         return associated.width(view, fm)
     }
     
     @discardableResult
-    public func height(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
+    func height(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
         return associated.height(view, fm)
     }
     
     @discardableResult
-    public func size(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
+    func size(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
         return associated.size(view, fm)
     }
     
     @discardableResult
-    public func center(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
+    func center(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
         return associated.center(view, fm)
     }
     
     @discardableResult
-    public func centerX(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
+    func centerX(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
         return associated.centerX(view, fm)
     }
     
     @discardableResult
-    public func centerY(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
+    func centerY(_ view: UIView, _ fm: JustLayoutFlexibleMargin) -> T {
         return associated.centerY(view, fm)
     }
 }
 
 public extension JustLayoutDSL {
     @discardableResult
-    public func centerInContainer() -> T {
+    func centerInContainer() -> T {
         return associated.centerInContainer()
     }
     
     @discardableResult
-    public func centerVertically() -> T {
+    func centerVertically() -> T {
         return associated.centerVertically()
     }
     
     @discardableResult
-    public func centerHorizontally() -> T {
+    func centerHorizontally() -> T {
         return associated.centerHorizontally()
     }
     
     @discardableResult
-    public func centerVertically(_ offset: CGFloat) -> T {
+    func centerVertically(_ offset: CGFloat) -> T {
         return associated.centerVertically(offset)
     }
     
     @discardableResult
-    public func centerHorizontally(_ offset: CGFloat) -> T {
+    func centerHorizontally(_ offset: CGFloat) -> T {
         return associated.centerHorizontally(offset)
     }
 }
@@ -385,13 +385,13 @@ public extension JustLayoutDSL {
 public extension JustLayoutDSL {
     /// width = ratio / 100 * height
     @discardableResult
-    public func aspectratio(_ ratio: CGFloat = 1) -> T {
+    func aspectratio(_ ratio: CGFloat = 1) -> T {
         return associated.aspectratio(followHeight: ratio)
     }
     
     /// width = ratio * height
     @discardableResult
-    public func aspectratio(_ ratio: JustLayoutPercentage) -> T {
+    func aspectratio(_ ratio: JustLayoutPercentage) -> T {
         return associated.aspectratio(followHeight: ratio)
     }
 }
@@ -401,22 +401,22 @@ public extension JustLayoutDSL {
 public extension JustLayoutDSL {
     
     @discardableResult
-    public func following(_ view: UIView, offset: CGFloat = 0) -> T {
+    func following(_ view: UIView, offset: CGFloat = 0) -> T {
         return associated.following(view, offset: offset)
     }
     
     @discardableResult
-    public func leading(_ view: UIView, offset: CGFloat = 0) -> T {
+    func leading(_ view: UIView, offset: CGFloat = 0) -> T {
         return associated.leading(view, offset: offset)
     }
     
     @discardableResult
-    public func below(_ view: UIView, offset: CGFloat = 0) -> T {
+    func below(_ view: UIView, offset: CGFloat = 0) -> T {
         return associated.below(view, offset: offset)
     }
     
     @discardableResult
-    public func above(_ view: UIView, offset: CGFloat = 0) -> T {
+    func above(_ view: UIView, offset: CGFloat = 0) -> T {
         return associated.above(view, offset: offset)
     }
 }

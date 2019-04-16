@@ -86,12 +86,12 @@ public extension UIView {
      ```
      */
     @discardableResult
-    public func layout(_ objects: Any...) -> [UIView] {
+    func layout(_ objects: Any...) -> [UIView] {
         return stack(vertically: objects)
     }
     
     @discardableResult
-    public func stack(vertically objects: [Any]) -> [UIView] {
+    func stack(vertically objects: [Any]) -> [UIView] {
         var previousMargin: CGFloat? = nil
         var previousFlexibleMargin: JustLayoutFlexibleMargin? = nil
         
@@ -271,7 +271,7 @@ public extension JustLayout {
      ```
      */
     @discardableResult
-    public static func layout(_ view: UIView, visually objects: Any...) -> [UIView] {
+    static func layout(_ view: UIView, visually objects: Any...) -> [UIView] {
         return view.stack(vertically: objects)
     }
 }

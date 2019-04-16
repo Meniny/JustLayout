@@ -79,7 +79,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func align<T>(horizontally views: T...) -> [T] where T: UIView {
+    static func align<T>(horizontally views: T...) -> [T] where T: UIView {
         return align(horizontally: views)
     }
     
@@ -99,7 +99,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func align<T>(horizontally views: [T]) -> [T] where T: UIView {
+    static func align<T>(horizontally views: [T]) -> [T] where T: UIView {
         align(.horizontal, views: views)
         return views
     }
@@ -115,7 +115,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func align<T>(vertically views: T...) -> [T] where T: UIView {
+    static func align<T>(vertically views: T...) -> [T] where T: UIView {
         align(vertically: views)
         return views
     }
@@ -131,7 +131,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func align<T>(vertically views: [T]) -> [T] where T: UIView {
+    static func align<T>(vertically views: [T]) -> [T] where T: UIView {
         align(.vertical, views: views)
         return views
     }
@@ -143,7 +143,7 @@ public extension JustLayout {
      alignCenter(button, with:image)
      ```
      */
-    public static func align<T>(center v1: T, with v2: T) where T: UIView {
+    static func align<T>(center v1: T, with v2: T) where T: UIView {
         align(horizontally: v1, with: v2)
         align(vertically: v1, with: v2)
     }
@@ -156,7 +156,7 @@ public extension JustLayout {
      ```
      
      */
-    public static func align<T>(horizontally v1: T, with v2: T, offset: CGFloat = 0) where T: UIView {
+    static func align<T>(horizontally v1: T, with v2: T, offset: CGFloat = 0) where T: UIView {
         align(.horizontal, v1: v1, with: v2, offset: offset)
     }
     
@@ -168,11 +168,11 @@ public extension JustLayout {
      ```
      
      */
-    public static func align<T>(vertically v1: T, with v2: T, offset: CGFloat = 0) where T: UIView {
+    static func align<T>(vertically v1: T, with v2: T, offset: CGFloat = 0) where T: UIView {
         align(.vertical, v1: v1, with: v2, offset: offset)
     }
     
-    public static func align<T>(_ axis: NSLayoutConstraint.Axis, views: [T]) where T: UIView {
+    static func align<T>(_ axis: NSLayoutConstraint.Axis, views: [T]) where T: UIView {
         for (i, v) in views.enumerated() where views.count > i+1 {
             let v2 = views[i+1]
             if axis == .horizontal {
@@ -183,7 +183,7 @@ public extension JustLayout {
         }
     }
     
-    public static func align<T>(_ axis: NSLayoutConstraint.Axis, v1: T, with v2: T, offset: CGFloat) where T: UIView {
+    static func align<T>(_ axis: NSLayoutConstraint.Axis, v1: T, with v2: T, offset: CGFloat) where T: UIView {
         if let spv = v1.superview {
             let center: NSLayoutConstraint.Attribute = axis == .horizontal ? .centerY : .centerX
             let c = constraint(item: v1, attribute: center, toItem: v2, constant:offset)
@@ -209,7 +209,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func align<T>(tops views: T...) -> [T] where T: UIView {
+    static func align<T>(tops views: T...) -> [T] where T: UIView {
         return align(tops: views)
     }
     
@@ -229,7 +229,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func align<T>(tops views: [T]) -> [T] where T: UIView {
+    static func align<T>(tops views: [T]) -> [T] where T: UIView {
         align(.top, views: views)
         return views
     }
@@ -250,7 +250,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func align<T>(bottoms views: T...) -> [T] where T: UIView {
+    static func align<T>(bottoms views: T...) -> [T] where T: UIView {
         return align(bottoms: views)
     }
     
@@ -270,7 +270,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func align<T>(bottoms views: [T]) -> [T] where T: UIView {
+    static func align<T>(bottoms views: [T]) -> [T] where T: UIView {
         align(.bottom, views: views)
         return views
     }
@@ -286,7 +286,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func align<T>(lefts views: T...) -> [T] where T: UIView {
+    static func align<T>(lefts views: T...) -> [T] where T: UIView {
         return align(lefts: views)
     }
     
@@ -301,7 +301,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func align<T>(lefts views: [T]) -> [T] where T: UIView {
+    static func align<T>(lefts views: [T]) -> [T] where T: UIView {
         align(.left, views: views)
         return views
     }
@@ -317,7 +317,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func align<T>(rights views: T...) -> [T] where T: UIView {
+    static func align<T>(rights views: T...) -> [T] where T: UIView {
         return align(rights: views)
     }
     
@@ -332,13 +332,13 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func align<T>(rights views: [T]) -> [T] where T: UIView {
+    static func align<T>(rights views: [T]) -> [T] where T: UIView {
         align(.right, views: views)
         return views
     }
     
     @discardableResult
-    public static func align<T>(_ attribute: NSLayoutConstraint.Attribute, views: [T]) -> [T] where T: UIView {
+    static func align<T>(_ attribute: NSLayoutConstraint.Attribute, views: [T]) -> [T] where T: UIView {
         for (i, v) in views.enumerated() where views.count > i+1 {
             let v2 = views[i+1]
             if let spv = v.superview {

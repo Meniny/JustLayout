@@ -80,7 +80,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func size(_ points: CGFloat) -> Self {
+    func size(_ points: CGFloat) -> Self {
         width(points)
         height(points)
         return self
@@ -106,7 +106,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func height(_ points: CGFloat) -> Self {
+    func height(_ points: CGFloat) -> Self {
         return size(.height, points: points)
     }
     
@@ -124,7 +124,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func width(_ points: CGFloat) -> Self {
+    func width(_ points: CGFloat) -> Self {
         return size(.width, points: points)
     }
     
@@ -148,7 +148,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func height(_ fm: JustLayoutFlexibleMargin) -> Self {
+    func height(_ fm: JustLayoutFlexibleMargin) -> Self {
         return size(.height, relatedBy: fm.relation, points: fm.points)
     }
     
@@ -166,7 +166,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func width(_ fm: JustLayoutFlexibleMargin) -> Self {
+    func width(_ fm: JustLayoutFlexibleMargin) -> Self {
         return size(.width, relatedBy: fm.relation, points: fm.points)
     }
     
@@ -198,7 +198,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func equal<T>(sizes views: T...) -> [T] where T: UIView {
+    static func equal<T>(sizes views: T...) -> [T] where T: UIView {
         return equal(sizes: views)
     }
     
@@ -213,7 +213,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func equal<T>(sizes views: [T]) -> [T] where T: UIView {
+    static func equal<T>(sizes views: [T]) -> [T] where T: UIView {
         equal(heights: views)
         equal(widths: views)
         return views
@@ -230,7 +230,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func equal<T>(widths views: T...) -> [T] where T: UIView {
+    static func equal<T>(widths views: T...) -> [T] where T: UIView {
         return equal(widths: views)
     }
     
@@ -245,7 +245,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func equal<T>(widths views: [T]) -> [T] where T: UIView {
+    static func equal<T>(widths views: [T]) -> [T] where T: UIView {
         equal(.width, views: views)
         return views
     }
@@ -261,7 +261,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func equal<T>(heights views: T...) -> [T] where T: UIView {
+    static func equal<T>(heights views: T...) -> [T] where T: UIView {
         return equal(heights: views)
     }
     
@@ -277,7 +277,7 @@ public extension JustLayout {
      
      */
     @discardableResult
-    public static func equal<T>(heights views: [T]) -> [T] where T: UIView {
+    static func equal<T>(heights views: [T]) -> [T] where T: UIView {
         equal(.height, views: views)
         return views
     }

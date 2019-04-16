@@ -75,7 +75,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func centerInContainer() -> Self {
+    func centerInContainer() -> Self {
         if let spv = superview {
             JustLayout.align(center: self, with: spv)
         }
@@ -93,7 +93,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func centerHorizontally() -> Self {
+    func centerHorizontally() -> Self {
         if let spv = superview {
             JustLayout.align(vertically: self, spv)
         }
@@ -111,7 +111,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func centerVertically() -> Self {
+    func centerVertically() -> Self {
         if let spv = superview {
             JustLayout.align(horizontally: self, spv)
         }
@@ -129,7 +129,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func centerHorizontally(_ offset: CGFloat) -> Self {
+    func centerHorizontally(_ offset: CGFloat) -> Self {
         if let spv = superview {
             JustLayout.align(vertically: self, with: spv, offset: offset)
         }
@@ -147,7 +147,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func centerVertically(_ offset: CGFloat) -> Self {
+    func centerVertically(_ offset: CGFloat) -> Self {
         if let spv = superview {
             JustLayout.align(horizontally: self, with: spv, offset: offset)
         }

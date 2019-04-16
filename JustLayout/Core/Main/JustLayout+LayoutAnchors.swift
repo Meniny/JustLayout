@@ -87,35 +87,35 @@ public struct JustLayoutXAxisAnchor {
 @available(iOS 9.0, *)
 public extension UILayoutGuide {
 
-    public var Top: JustLayoutYAxisAnchor {
+    var Top: JustLayoutYAxisAnchor {
         return JustLayoutYAxisAnchor(anchor: topAnchor)
     }
 
-    public var Bottom: JustLayoutYAxisAnchor {
+    var Bottom: JustLayoutYAxisAnchor {
         return JustLayoutYAxisAnchor(anchor: bottomAnchor)
     }
     
-    public var Left: JustLayoutXAxisAnchor {
+    var Left: JustLayoutXAxisAnchor {
         return JustLayoutXAxisAnchor(anchor: leftAnchor)
     }
     
-    public var Right: JustLayoutXAxisAnchor {
+    var Right: JustLayoutXAxisAnchor {
         return JustLayoutXAxisAnchor(anchor: rightAnchor)
     }
     
-    public var Leading: JustLayoutXAxisAnchor {
+    var Leading: JustLayoutXAxisAnchor {
         return JustLayoutXAxisAnchor(anchor: leadingAnchor)
     }
     
-    public var Trailing: JustLayoutXAxisAnchor {
+    var Trailing: JustLayoutXAxisAnchor {
         return JustLayoutXAxisAnchor(anchor: trailingAnchor)
     }
 
-    public var CenterX: JustLayoutXAxisAnchor {
+    var CenterX: JustLayoutXAxisAnchor {
         return JustLayoutXAxisAnchor(anchor: centerXAnchor)
     }
     
-    public var CenterY: JustLayoutYAxisAnchor {
+    var CenterY: JustLayoutYAxisAnchor {
         return JustLayoutYAxisAnchor(anchor: centerYAnchor)
     }
 }
@@ -195,11 +195,11 @@ public func - (left: JustLayoutXAxisAnchor, right: CGFloat) -> JustLayoutXAxisAn
 @available(iOS 9.0, *)
 public extension UILayoutSupport {
     
-    public var Top: JustLayoutYAxisAnchor {
+    var Top: JustLayoutYAxisAnchor {
         return JustLayoutYAxisAnchor(anchor: topAnchor)
     }
     
-    public var Bottom: JustLayoutYAxisAnchor {
+    var Bottom: JustLayoutYAxisAnchor {
         return JustLayoutYAxisAnchor(anchor: bottomAnchor)
     }
 }

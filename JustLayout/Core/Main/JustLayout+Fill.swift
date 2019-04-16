@@ -68,7 +68,7 @@ public extension UIView {
      Adds the constraints needed for the view to fill its `superview`.
      A padding can be used to apply equal spaces between the view and its superview
     */
-    public func fill(container padding: CGFloat = 0) {
+    func fill(container padding: CGFloat = 0) {
         fill(horizontally: padding)
         fill(vertically: padding)
     }
@@ -78,7 +78,7 @@ public extension UIView {
      A padding can be used to apply equal spaces between the view and its superview
      */
     @discardableResult
-    public func fill(vertically points: CGFloat) -> Self {
+    func fill(vertically points: CGFloat) -> Self {
         return fill(.vertical, points: points)
     }
     
@@ -87,7 +87,7 @@ public extension UIView {
      A padding can be used to apply equal spaces between the view and its superview
      */
     @discardableResult
-    public func fill(horizontally points: CGFloat) -> Self {
+    func fill(horizontally points: CGFloat) -> Self {
         return fill(.horizontal, points: points)
     }
     

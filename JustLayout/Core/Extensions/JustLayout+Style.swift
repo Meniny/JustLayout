@@ -90,7 +90,7 @@ public extension UIAppearance {
      
      */
     @discardableResult
-    public func style(_ styleClosure: (Self) -> Void) -> Self {
+    func style(_ styleClosure: (Self) -> Void) -> Self {
         styleClosure(self)
         return self
     }
@@ -101,7 +101,7 @@ public extension Array where Element: UIAppearance {
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public func style(_ styleClosure: (Element) -> Void) -> [Element] {
+    func style(_ styleClosure: (Element) -> Void) -> [Element] {
         forEach(styleClosure)
         return self
     }
@@ -112,7 +112,7 @@ public extension JustLayout {
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public static func style<T>(_ views: T..., closure: (T) -> Void) -> [T] where T: UIAppearance {
+    static func style<T>(_ views: T..., closure: (T) -> Void) -> [T] where T: UIAppearance {
         return views.style(closure)
     }
 
@@ -120,7 +120,7 @@ public extension JustLayout {
      - Returns: Itself for chaining purposes
      */
     @discardableResult
-    public static func style<T>(_ views: [T], closure: (T) -> Void) -> [T] where T: UIAppearance {
+    static func style<T>(_ views: [T], closure: (T) -> Void) -> [T] where T: UIAppearance {
         return views.style(closure)
     }
 }

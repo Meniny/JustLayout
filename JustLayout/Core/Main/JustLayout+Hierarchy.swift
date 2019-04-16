@@ -97,7 +97,7 @@ public extension UIView {
      - Returns: Itself to enable nested layouts.
      */
     @discardableResult
-    public func translates(subViews svs: UIView...) -> UIView {
+    func translates(subViews svs: UIView...) -> UIView {
         return translates(subViews: svs)
     }
 
@@ -133,7 +133,7 @@ public extension UIView {
      - Returns: Itself to enable nested layouts.
      */
     @objc @discardableResult
-    public func translates(subViews svs: [UIView]) -> UIView {
+    func translates(subViews svs: [UIView]) -> UIView {
         for sv in svs {
             if !subviews.contains(sv) {
                 addSubview(sv)
@@ -177,7 +177,7 @@ public extension UITableViewCell {
      - Returns: Itself to enable nested layouts.
      */
     @discardableResult
-    public override func translates(subViews svs: [UIView]) -> UIView {
+    override func translates(subViews svs: [UIView]) -> UIView {
         return contentView.translates(subViews: svs)
     }
 }
@@ -215,7 +215,7 @@ public extension UICollectionViewCell {
      - Returns: Itself to enable nested layouts.
      */
     @discardableResult
-    public override func translates(subViews svs: [UIView]) -> UIView {
+    override func translates(subViews svs: [UIView]) -> UIView {
         return contentView.translates(subViews: svs)
     }
 }

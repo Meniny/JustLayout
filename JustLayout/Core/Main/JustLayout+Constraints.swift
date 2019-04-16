@@ -89,7 +89,7 @@ public extension UIView {
      - Returns: The NSLayoutConstraint created.
      */
     @discardableResult
-    public func addConstraint(item view1: AnyObject,
+    func addConstraint(item view1: AnyObject,
                               attribute attr1: NSLayoutConstraint.Attribute,
                               relatedBy: NSLayoutConstraint.Relation = .equal,
                               toItem view2: AnyObject? = nil,
@@ -149,7 +149,7 @@ public extension UIView {
      button.followEdges(image)
      ```
      */
-    public func followEdges<T>(_ otherView: T) where T: UIView {
+    func followEdges<T>(_ otherView: T) where T: UIView {
         if let spv = superview {
             let cs = [
                 constraint(item: self, attribute: .top, toItem: otherView),
@@ -173,7 +173,7 @@ public extension UIView {
      
      */
     @discardableResult
-    public func heightEqualsWidth() -> UIView {
+    func heightEqualsWidth() -> UIView {
         if let spv = superview {
             let c = constraint(item: self, attribute: .height, toItem: self, attribute: .width)
             spv.addConstraint(c)
